@@ -1,13 +1,5 @@
-<h2>My Recipes</h2>
-<ul class="recipes">
-    <li *ngFor="let recipe of recipes">
-    <button type="button" (click)="onSelect(recipe)">
-      <span class="badge">{{recipe.id}}</span>
-      <span class="title">{{recipe.title}}</span>
-    </button>
+<ul class="recipes flex flex-wrap justify-evenly">
+    <li routerLink="/recipes/{{recipe.id}}" class="border-4 basis-1/5 aspect-square" *ngFor="let recipe of recipes">
+        <span class="title">{{recipe.title}}</span>
   </li>
 </ul>
-<div *ngIf="selectedRecipe">
-    <span class="badge">{{selectedRecipe.id}}</span>
-    <span class="title">{{selectedRecipe.title}}</span>
-</div>
