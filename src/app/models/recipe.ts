@@ -1,3 +1,4 @@
+import { Category } from "./category";
 import { RecipeIngredient } from "./recipe-ingredient";
 import { RecipeStep } from "./recipe-step";
 
@@ -14,4 +15,5 @@ export interface Recipe {
     comment: string;
     steps: RecipeStep[];
     ingredients: RecipeIngredient[];
+    categories: Category[];
 }
