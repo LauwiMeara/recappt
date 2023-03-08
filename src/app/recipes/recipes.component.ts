@@ -42,17 +42,17 @@ export class RecipesComponent {
     }
   }
 
-  getRecipeCount(categoryId: number): number {
-    return this.getFilteredRecipes(categoryId).length;
+  hasNoRecipes(categoryId: number): boolean {
+    return this.getFilteredRecipes(categoryId).length === 0;
   }
 
   getFilteredRecipes(categoryId: number | null = null): Recipe[] {
-    let filter = this.filteredCategories.slice();
+    let extendedFilteredCategories = this.filteredCategories.slice();
     
     if (categoryId) {
-      filter.push(categoryId);
+      extendedFilteredCategories.push(categoryId);
     }
 
-    return this.recipes.filter(recipe => filter.every(id => recipe.categories.some(category => category.id == id)));
+    return this.recipes.filter(recipe => extendedFilteredCategories.every(id => recipe.categories.some(category => category.id == id)));
   }
 }
