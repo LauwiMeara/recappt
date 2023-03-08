@@ -3,31 +3,31 @@
     <div><fa-icon [icon]="faUtensils" class="text-3xl"></fa-icon></div>
     <div>Alle recepten</div>
   </li>
-  <li (click)="filter(3)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(3)  }" class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li (click)="filter(3)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(3), 'opacity-25 pointer-events-none': getRecipeCount(3) == 0 }" class="items-center text-center bg-amber-100 p-2 cursor-pointer">
     <div><fa-icon [icon]="faCarrot" class="text-3xl"></fa-icon></div>
     <div>Salade</div>
   </li>
-  <li (click)="filter(4)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(4)  }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li (click)="filter(4)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(4), 'opacity-25 pointer-events-none': getRecipeCount(4) == 0 }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
     <div><fa-icon [icon]="faBread" class="text-3xl"></fa-icon></div>
     <div>Brood</div>
   </li>
-  <li (click)="filter(5)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(5)  }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li (click)="filter(5)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(5), 'opacity-25 pointer-events-none': getRecipeCount(5) == 0 }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
     <div><fa-icon [icon]="faEgg" class="text-3xl"></fa-icon></div>
     <div>Ei</div>
   </li>
-  <li (click)="filter(1)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(1)  }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li (click)="filter(1)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(1), 'opacity-25 pointer-events-none': getRecipeCount(1) == 0 }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
     <div><fa-icon [icon]="faPotato" class="text-3xl"></fa-icon></div>
     <div>Aardappels</div>
   </li>
-  <li (click)="filter(2)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(2)  }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li (click)="filter(2)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(2), 'opacity-25 pointer-events-none': getRecipeCount(2) == 0 }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
     <div><fa-icon [icon]="faPasta" class="text-3xl"></fa-icon></div>
     <div>Pasta</div>
   </li>
-  <li (click)="filter(6)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(6)  }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li (click)="filter(6)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(6), 'opacity-25 pointer-events-none': getRecipeCount(6) == 0 }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
     <div><fa-icon [icon]="faRice" class="text-3xl"></fa-icon></div>
     <div>Rijst</div>
   </li>
-  <li (click)="filter(7)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(7)  }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li (click)="filter(7)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(7), 'opacity-25 pointer-events-none': getRecipeCount(7) == 0 }"class="items-center text-center bg-amber-100 p-2 cursor-pointer">
     <div><fa-icon [icon]="faCake" class="text-3xl"></fa-icon></div>
     <div>Zoet</div>
   </li>

@@ -42,7 +42,17 @@ export class RecipesComponent {
     }
   }
 
-  getFilteredRecipes(): Recipe[] {
-    return this.recipes.filter(recipe => this.filteredCategories.every (id => recipe.categories.some(category => category.id == id)));
+  getRecipeCount(categoryId: number): number {
+    return this.getFilteredRecipes(categoryId).length;
+  }
+
+  getFilteredRecipes(categoryId: number | null = null): Recipe[] {
+    let filter = this.filteredCategories.slice();
+    
+    if (categoryId) {
+      filter.push(categoryId);
+    }
+
+    return this.recipes.filter(recipe => filter.every(id => recipe.categories.some(category => category.id == id)));
   }
 }
