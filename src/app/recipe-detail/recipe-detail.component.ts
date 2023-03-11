@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, HostListener, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { Recipe } from '../models/recipe';
@@ -22,6 +22,12 @@ export class RecipeDetailComponent {
 
   ngOnInit(): void {
     this.setRecipe();
+  }
+
+  @HostListener('window:keydown.space', ['$event'])
+  onSpacebar(event: KeyboardEvent) {
+    event.preventDefault(); // prevent default space bar 'scroll down' browser behavior
+    this.nextStep();
   }
 
   nextStep(): void{
