@@ -5,15 +5,15 @@
         <div class="flex flex-col w-1/6 mr-5">
             <div class="mb-5">
                 <div *ngIf="recipe.servingsPeople" class="flex flex-row">
-                    <fa-icon [icon]="faPerson" class="w-6"></fa-icon>
+                    <fa-icon icon="user" class="w-6"></fa-icon>
                     <span class="w-full">{{recipe.servingsPeople}} {{recipe.servingsPeople == 1 ? "persoon" : "personen"}}</span>
                 </div>
                 <div *ngIf="recipe.servingsPieces" class="flex flex-row">
-                    <fa-icon [icon]="faPiece" class="w-6"></fa-icon>
+                    <fa-icon icon="chart-pie" class="w-6"></fa-icon>
                     <span class="w-full">{{recipe.servingsPieces}} {{recipe.servingsPieces == 1 ? "stuk" : "stukken"}}</span>
                 </div>
                 <div class="flex flex-row">
-                    <fa-icon [icon]="faTime" class="w-6"></fa-icon>
+                    <fa-icon icon="clock" class="w-6"></fa-icon>
                     <div  class="flex flex-col w-full">
                         <div *ngIf="recipe.timePrepInMinutes">{{recipe.timePrepInMinutes}} minuten bereiding</div>
                         <div *ngIf="recipe.timeWaitInMinutes">{{recipe.timeWaitInMinutes}} minuten wachten</div>
@@ -42,4 +42,4 @@
     </div>
 </div>
 
-<button type="button" class="aspect-square w-20 bg-recappt-white p-5 rounded-lg mb-5 cursor-pointer" (click)="goBack()"><fa-icon [icon]="faBack" class="w-6"></fa-icon></button>
+<button type="button" class="h-16 w-32 text-xl text-center items-center bg-recappt-white rounded-lg mb-5 cursor-pointer" (click)="goBack()"><fa-icon icon="arrow-left-long" class="w-6"></fa-icon></button>
