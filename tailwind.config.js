@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         header: ['"Amatic SC"', 'cursive'],
         body: ['Raleway', 'sans-serif']
+      },
+      scale: {
+        '-flip': '-1'
       }
     },
   },

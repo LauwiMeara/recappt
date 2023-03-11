@@ -9,4 +9,9 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 export class AppComponent {
   title = 'RecAPPt';
   faUser = faUser;
+  mustFlipCow: boolean = false;
+
+  ngOnInit(): void {
+    this.mustFlipCow = !!Math.round(Math.random());
+  }
 }

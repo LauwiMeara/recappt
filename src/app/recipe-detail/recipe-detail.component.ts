@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { Recipe } from '../models/recipe';
-import { RecipeService } from '../recipe.service';
+import { RecipeService } from '../services/recipe.service';
 import { faUser, faChartPie, faClock, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({

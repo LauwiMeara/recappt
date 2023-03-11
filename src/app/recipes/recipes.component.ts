@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { Recipe } from '../models/recipe';
-import { RecipeService } from '../recipe.service'
-import {faUtensils, faBreadSlice, faBowlRice, faEgg, faCarrot, faCookie, faBacon, faCheese} from '@fortawesome/free-solid-svg-icons';
+import { RecipeService } from '../services/recipe.service'
+import { Category } from '../models/category';
+import { CategoryService } from '../services/category.service'
 
 @Component({
   selector: 'app-recipes',
@@ -10,17 +11,10 @@ import {faUtensils, faBreadSlice, faBowlRice, faEgg, faCarrot, faCookie, faBacon
 })
 export class RecipesComponent {
   recipes: Recipe[] = [];
+  categories: Category[] = [];
   filteredCategories: number[] = [];
-  faUtensils = faUtensils;
-  faBread = faBreadSlice;
-  faRice = faBowlRice;
-  faEgg = faEgg;
-  faCarrot = faCarrot;
-  faPotato = faCookie;
-  faPasta = faBacon;
-  faCake = faCheese;
 
-  constructor(private recipeService: RecipeService) {}
+  constructor(private recipeService: RecipeService, private categoryService: CategoryService) {}
 
   ngOnInit(): void {
     this.setRecipes();
@@ -29,6 +23,9 @@ export class RecipesComponent {
   setRecipes(): void {
     this.recipeService.getRecipes().subscribe(recipes => {
       this.recipes = recipes;
+    })
+    this.categoryService.getCategories().subscribe(categories => {
+      this.categories = categories;
     })
   }
 
