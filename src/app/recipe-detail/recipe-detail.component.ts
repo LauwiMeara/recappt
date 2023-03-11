@@ -3,7 +3,6 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { Recipe } from '../models/recipe';
 import { RecipeService } from '../services/recipe.service';
-import { faUser, faChartPie, faClock, faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-recipe-detail',
@@ -12,10 +11,6 @@ import { faUser, faChartPie, faClock, faArrowLeft } from '@fortawesome/free-soli
 })
 export class RecipeDetailComponent {
   recipe?: Recipe;
-  faPerson = faUser;
-  faPiece = faChartPie;
-  faTime = faClock;
-  faBack = faArrowLeft;
   currentActiveStep = 0;
 
   constructor(private route: ActivatedRoute, private recipeService: RecipeService, private location: Location) {}
