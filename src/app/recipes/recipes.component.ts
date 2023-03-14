@@ -3,6 +3,7 @@ import { Recipe } from '../models/recipe';
 import { RecipeService } from '../services/recipe.service'
 import { Category } from '../models/category';
 import { CategoryService } from '../services/category.service'
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-recipes',
@@ -54,6 +55,6 @@ export class RecipesComponent {
   }
   
   getImageUrl(recipe: Recipe) {
-    return '/assets/img/dishes/'+ recipe.imageName;
+    return environment.imagesRecipesFilePath + recipe.imageName;
   }
 }
