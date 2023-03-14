@@ -1,17 +1,17 @@
 <ul class="grid grid-cols-9 font-header mx-5 mb-5 text-2xl select-none divide-x divide-recappt-gray">
-  <li (click)="filter(0)" [ngClass]="{ 'bg-amber-300': filteredCategories.length == 0  }" class="col-span-2 items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li (click)="filter(0)" [ngClass]="{ 'bg-gradient-amber-300': filteredCategories.length == 0  }" class="col-span-2 items-center text-center bg-gradient-amber-100 p-2 cursor-pointer">
     <div><fa-icon icon="utensils" class="text-3xl"></fa-icon></div>
     <div>Alle recepten</div>
   </li>
-  <li *ngFor="let category of categories" (click)="filter(category.id)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(category.id), 'opacity-25 pointer-events-none': hasNoRecipes(category.id)}" class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+  <li *ngFor="let category of categories" (click)="filter(category.id)" [ngClass]="{ 'bg-gradient-amber-300': filteredCategories.includes(category.id), 'opacity-25 pointer-events-none': hasNoRecipes(category.id)}" class="items-center text-center bg-gradient-amber-100 p-2 cursor-pointer">
     <div><fa-icon [icon]=category.iconName class="text-3xl"></fa-icon></div>
     <div>{{category.name}}</div>
   </li>
 </ul>
 
 <ul class="recipes grid grid-cols-5">
-  <li routerLink="/recipes/{{recipe.id}}" *ngFor="let recipe of getFilteredRecipes()" class="flex flex-center items-center text-center aspect-square bg-recappt-white m-5 p-5 rounded-lg cursor-pointer">
-      <span class="title w-full">{{recipe.title}}</span>
+  <li routerLink="/recipes/{{recipe.id}}" *ngFor="let recipe of getFilteredRecipes()" class="bg-recappt-white aspect-square m-5 rounded-lg divide-y divide-recappt-gray cursor-pointer">
+    <div [ngStyle]="{'background-image': 'url(' + getImageUrl(recipe) + ')'}" class="flex bg-cover bg-center w-full h-3/4 rounded-t-lg"></div>
+    <div class="flex items-center justify-center text-center bg-gradient-recappt-white p-2 h-1/4 rounded-b-lg font-semibold">{{recipe.title}}</div>
   </li>
 </ul>
- 

@@ -52,4 +52,8 @@ export class RecipesComponent {
 
     return this.recipes.filter(recipe => extendedFilteredCategories.every(id => recipe.categories.some(category => category.id == id)));
   }
+  
+  getImageUrl(recipe: Recipe) {
+    return '/assets/img/dishes/'+ recipe.imageName;
+  }
 }
