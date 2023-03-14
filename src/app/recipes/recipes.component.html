@@ -1,15 +1,19 @@
-<ul class="grid grid-cols-9 font-header mx-5 mb-5 text-2xl select-none divide-x divide-recappt-gray">
-  <li (click)="filter(0)" [ngClass]="{ 'bg-amber-300': filteredCategories.length == 0  }" class="col-span-2 items-center text-center bg-amber-100 p-2 cursor-pointer">
-    <div><fa-icon icon="utensils" class="text-3xl"></fa-icon></div>
-    <div>Alle recepten</div>
-  </li>
-  <li *ngFor="let category of categories" (click)="filter(category.id)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(category.id), 'opacity-25 pointer-events-none': hasNoRecipes(category.id)}" class="items-center text-center bg-amber-100 p-2 cursor-pointer">
-    <div><fa-icon [icon]=category.iconName class="text-3xl"></fa-icon></div>
-    <div>{{category.name}}</div>
-  </li>
-</ul>
+<div class="sticky top-0">
+  <div class="w-full h-10 bg-recappt-gray"></div>
+  <ul class="grid grid-cols-9 font-header mx-5 text-2xl select-none divide-x divide-recappt-gray">
+    <li (click)="filter(0)" [ngClass]="{ 'bg-amber-300': filteredCategories.length == 0  }" class="col-span-2 items-center text-center bg-amber-100 p-2 cursor-pointer">
+      <div><fa-icon icon="utensils" class="text-3xl"></fa-icon></div>
+      <div>Alle recepten</div>
+    </li>
+    <li *ngFor="let category of categories" (click)="filter(category.id)" [ngClass]="{ 'bg-amber-300': filteredCategories.includes(category.id), 'opacity-25 pointer-events-none': hasNoRecipes(category.id)}" class="items-center text-center bg-amber-100 p-2 cursor-pointer">
+      <div><fa-icon [icon]=category.iconName class="text-3xl"></fa-icon></div>
+      <div>{{category.name}}</div>
+    </li>
+  </ul>
+  <div class="w-full h-10 bg-recappt-gray"></div>
+</div>
 
-<ul class="recipes grid grid-cols-5">
+<ul class="recipes grid grid-cols-5 -mt-5">
   <li routerLink="/recipes/{{recipe.id}}" *ngFor="let recipe of getFilteredRecipes()" class="flex flex-center items-center text-center aspect-square bg-recappt-white m-5 p-5 rounded-lg cursor-pointer">
       <span class="title w-full">{{recipe.title}}</span>
   </li>
