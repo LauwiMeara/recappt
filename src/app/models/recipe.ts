@@ -13,6 +13,7 @@ export interface Recipe {
     timeWaitInMinutes: number;
     timeOvenInMinutes: number;
     comment: string;
+    imageName: string;
     steps: RecipeStep[];
     ingredients: RecipeIngredient[];
     categories: Category[];
