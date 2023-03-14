@@ -3,6 +3,7 @@ import { Recipe } from '../models/recipe';
 import { RecipeService } from '../services/recipe.service'
 import { Category } from '../models/category';
 import { CategoryService } from '../services/category.service'
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-recipes',
@@ -51,5 +52,9 @@ export class RecipesComponent {
     }
 
     return this.recipes.filter(recipe => extendedFilteredCategories.every(id => recipe.categories.some(category => category.id == id)));
+  }
+  
+  getImageUrl(recipe: Recipe) {
+    return environment.imagesRecipesFilePath + recipe.imageName;
   }
 }

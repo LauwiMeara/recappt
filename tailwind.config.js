@@ -16,7 +16,12 @@ module.exports = {
       },
       scale: {
         '-flip': '-1'
-      }
+      },
+      backgroundImage: (theme) => ({
+        'gradient-recappt-white': 'linear-gradient(to bottom right, #f5f5f5, #f1f5f9, #cbd5e1)',
+        'gradient-amber-100': 'linear-gradient(to bottom right, #fffbeb, #fef3c7)',
+        'gradient-amber-300': 'linear-gradient(to bottom right, #fde68a, #fcd34d)'
+      }),
     },
   },
   plugins: [],
