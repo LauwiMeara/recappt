@@ -40,6 +40,10 @@ export class RecipesComponent {
     }
   }
 
+  getNumberOfRecipes(categoryId: number): number {
+    return this.getFilteredRecipes(categoryId).length;
+  }
+
   hasNoRecipes(categoryId: number): boolean {
     return this.getFilteredRecipes(categoryId).length === 0;
   }
