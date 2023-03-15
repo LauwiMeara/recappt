@@ -59,6 +59,6 @@ export class RecipesComponent {
   }
   
   getImageUrl(recipe: Recipe) {
-    return environment.imagesRecipesFilePath + recipe.imageName;
+    return recipe.imageName && environment.imagesRecipesFilePath + recipe.imageName;
   }
 }
