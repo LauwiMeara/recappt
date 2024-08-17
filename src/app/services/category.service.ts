@@ -8,7 +8,7 @@ import { Category } from '../models/category';
   providedIn: 'root'
 })
 export class CategoryService {
-  private categoriesUrl = environment.apiUrl + environment.categoriesEndPoint;
+  private categoriesUrl = "assets/categories.json";
 
   constructor(private http: HttpClient) { }
 

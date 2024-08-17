@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "createdAt": "12-31-2023 18:00:00",
+        "title": "Placeholder recipe",
+        "description": "Just a placeholder. Big story here!",
+        "servingsPeople": 4,
+        "servingsPieces": 5,
+        "timePrepInMinutes": 30,
+        "timeWaitInMinutes": 15,
+        "timeOvenInMinutes": 20,
+        "comment": "Comment",
+        "imageName": "1.jpg",
+        "steps": [],
+        "ingredients": [],
+        "categories": [
+            {
+                "id": 1
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "createdAt": "12-31-2023 18:00:00",
+        "title": "Other placeholder recipe",
+        "description": "Just a placeholder. Big story here!",
+        "servingsPeople": 4,
+        "servingsPieces": 5,
+        "timePrepInMinutes": 30,
+        "timeWaitInMinutes": 15,
+        "timeOvenInMinutes": 20,
+        "comment": "Comment",
+        "imageName": "2.jpg",
+        "steps": [],
+        "ingredients": [],
+        "categories": []
+    }
+]

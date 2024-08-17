@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class RecipeService {
-  private recipesUrl = environment.apiUrl + environment.recipesEndPoint;
+  private recipesUrl = "assets/recipes.json";
 
   constructor(private http: HttpClient) { }
 
