@@ -1,26 +1,44 @@
 [
     {
-        "id": 1,
-        "name": "Test",
-        "number": 1,
-        "iconName": "circle",
-        "recipes": [
-            {
-                "id": 1,
-                "createdAt": "12-31-2023 18:00:00",
-                "title": "Placeholder recipe",
-                "description": "Just a placeholder. Big story here!",
-                "servingsPeople": 4,
-                "servingsPieces": 5,
-                "timePrepInMinutes": 30,
-                "timeWaitInMinutes": 15,
-                "timeOvenInMinutes": 20,
-                "comment": "Comment",
-                "imageName": "1.jpg",
-                "steps": [],
-                "ingredients": [],
-                "categories": []
-            }
-        ]
+      "id": "1",
+      "name": "Aardappels",
+      "number": 4,
+      "iconName": "cookie"
+    },
+    {
+      "id": "2",
+      "name": "Pasta",
+      "number": 5,
+      "iconName": "bacon"
+    },
+    {
+      "id": "3",
+      "name": "Salade",
+      "number": 1,
+      "iconName": "seedling"
+    },
+    {
+      "id": "4",
+      "name": "Brood",
+      "number": 2,
+      "iconName": "bread-slice"
+    },
+    {
+      "id": "5",
+      "name": "Ei",
+      "number": 3,
+      "iconName": "egg"
+    },
+    {
+      "id": "6",
+      "name": "Rijst",
+      "number": 6,
+      "iconName": "bowl-rice"
+    },
+    {
+      "id": "7",
+      "name": "Zoet",
+      "number": 7,
+      "iconName": "cheese"
     }
-]
+  ]
