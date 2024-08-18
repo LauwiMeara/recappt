@@ -3,5 +3,5 @@ export const environment = {
     apiUrl: 'http://localhost:8080/',
     recipesEndPoint: 'recipes',
     categoriesEndPoint: 'categories',
-    imagesRecipesFilePath: '/assets/img/dishes/'
+    imagesRecipesFilePath: 'assets/img/dishes/'
   };
