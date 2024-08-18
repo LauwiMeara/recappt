@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
+import { HttpClient } from '@angular/common/http';
 import {Recipe} from '../models/recipe';
-import { environment } from 'src/environments/environment';
+import { map, Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +16,6 @@ export class RecipeService {
   }
 
   getRecipe(id: number): Observable<Recipe> {
-    return this.http.get<Recipe>(this.recipesUrl + '/' + id)
+    return this.getRecipes().pipe(map(recipes => recipes.filter(recipe => recipe.id === id)[0]));
   }
 }
