@@ -12,23 +12,18 @@ import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    RecipesComponent,
-    RecipeDetailComponent
-  ],
+  declarations: [AppComponent, RecipesComponent, RecipeDetailComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-
 export class AppModule {
   constructor(library: FaIconLibrary) {
     library.addIconPacks(fas);
   }
- }
+}

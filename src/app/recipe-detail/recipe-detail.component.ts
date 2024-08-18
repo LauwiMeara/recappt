@@ -7,13 +7,17 @@ import { RecipeService } from '../services/recipe.service';
 @Component({
   selector: 'app-recipe-detail',
   templateUrl: './recipe-detail.component.html',
-  styleUrls: ['./recipe-detail.component.scss']
+  styleUrls: ['./recipe-detail.component.scss'],
 })
 export class RecipeDetailComponent {
   recipe?: Recipe;
   currentActiveStep = 0;
 
-  constructor(private route: ActivatedRoute, private recipeService: RecipeService, private location: Location) {}
+  constructor(
+    private route: ActivatedRoute,
+    private recipeService: RecipeService,
+    private location: Location,
+  ) {}
 
   ngOnInit(): void {
     this.setRecipe();
@@ -25,9 +29,9 @@ export class RecipeDetailComponent {
     this.nextStep();
   }
 
-  nextStep(): void{
+  nextStep(): void {
     if (this.recipe) {
-      const activeStep = this.recipe?.steps.filter(step => step.isActive)[0];
+      const activeStep = this.recipe?.steps.filter((step) => step.isActive)[0];
       if (!activeStep) {
         this.recipe.steps[0].isActive = true;
       } else {
@@ -45,7 +49,8 @@ export class RecipeDetailComponent {
 
   setRecipe(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.recipeService.getRecipe(id).subscribe(recipe => 
-      this.recipe = recipe)
+    this.recipeService
+      .getRecipe(id)
+      .subscribe((recipe) => (this.recipe = recipe));
   }
 }

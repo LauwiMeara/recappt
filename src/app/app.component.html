@@ -1,12 +1,17 @@
 <div class="flex flex-col">
+  <div class="mt-8 flex select-none justify-center">
+    <h1 class="mx-3 bg-gradient-recappt-white bg-clip-text font-header text-9xl font-bold text-transparent">
+      {{ title }}
+    </h1>
+    <img
+      src="assets/img/cow-chef.png"
+      [ngClass]="{ '-scale-x-flip': mustFlipCow }"
+      alt="Chef Cow"
+      class="mx-3 h-32"
+    />
+  </div>
 
-    <div class="flex justify-center mt-8 select-none">
-        <h1 class="mx-3 text-9xl font-header font-bold bg-gradient-recappt-white bg-clip-text text-transparent">{{title}}</h1>
-        <img src="assets/img/cow-chef.png" [ngClass]="{ '-scale-x-flip': mustFlipCow }" alt="Chef Cow" class="h-32 mx-3">
-    </div>
-
-    <div>
-        <router-outlet></router-outlet>
-    </div>
-
+  <div>
+    <router-outlet></router-outlet>
+  </div>
 </div>
