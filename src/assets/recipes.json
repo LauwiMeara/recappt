@@ -1,38 +1,674 @@
 [
     {
-        "id": 1,
-        "createdAt": "12-31-2023 18:00:00",
-        "title": "Placeholder recipe",
-        "description": "Just a placeholder. Big story here!",
-        "servingsPeople": 4,
-        "servingsPieces": 5,
-        "timePrepInMinutes": 30,
-        "timeWaitInMinutes": 15,
-        "timeOvenInMinutes": 20,
-        "comment": "Comment",
-        "imageName": "1.jpg",
-        "steps": [],
-        "ingredients": [],
-        "categories": [
-            {
-                "id": 1
-            }
-        ]
+      "id": "1",
+      "createdAt": "2023-03-08 09:19:19",
+      "title": "Aardappel-broccoli traybake met gerookte kip",
+      "description": "Dit is een specialiteit van chefkok Robbie. Succes gegarandeerd.",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 35,
+      "comment": "",
+      "imageName": "1.jpg",
+      "categories": [
+        {
+          "id": 1
+        }
+      ]
     },
     {
-        "id": 1,
-        "createdAt": "12-31-2023 18:00:00",
-        "title": "Other placeholder recipe",
-        "description": "Just a placeholder. Big story here!",
-        "servingsPeople": 4,
-        "servingsPieces": 5,
-        "timePrepInMinutes": 30,
-        "timeWaitInMinutes": 15,
-        "timeOvenInMinutes": 20,
-        "comment": "Comment",
-        "imageName": "2.jpg",
-        "steps": [],
-        "ingredients": [],
-        "categories": []
+      "id": "2",
+      "createdAt": "2023-03-08 09:36:19",
+      "title": "Lasagnesalade",
+      "description": "",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 25,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Lekker met geschaafde Parmezaanse kaas.",
+      "imageName": "2.jpg",
+      "categories": [
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "createdAt": "2023-03-08 09:46:23",
+      "title": "Salade met kersen en mozzarella",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Ook te serveren met basilicumblaadjes en walnoten/hazelnoten.",
+      "imageName": "3.jpg",
+      "categories": [
+        {
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "createdAt": "2023-03-08 09:46:23",
+      "title": "Pistolet hotdog, zuurkool en katenspek",
+      "description": "Stevige lunch: zuurkool en worst op een knapperig broodje.",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "4.jpg",
+      "categories": [
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "createdAt": "2023-03-08 09:53:34",
+      "title": "Ciabatta tomaat-mozzarella",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "In plaats van Italiaanse kruiden kan er ook verse basilicum worden gebruikt.",
+      "imageName": "5.jpg",
+      "categories": [
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "createdAt": "2023-03-08 09:58:27",
+      "title": "Broodpap",
+      "description": "",
+      "servingsPeople": 1,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 25,
+      "comment": "",
+      "imageName": "",
+      "categories": [
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "createdAt": "2023-03-08 10:05:35",
+      "title": "Broodschotel andijvie, ham en kaas",
+      "description": "Een kwartiertje voorbereiden, de oven doet de rest!",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 25,
+      "comment": "Je kunt dit gerecht 1 dag van tevoren bereiden. Laat afkoelen tot kamertemperatuur en bewaar afgedekt in de koelkast. Verwarm 30 min. in de oven op 180 °C.",
+      "imageName": "7.jpg",
+      "categories": [
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "createdAt": "2023-03-11 08:50:56",
+      "title": "Pizza(bodem)",
+      "description": "",
+      "servingsPeople": 1,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 60,
+      "timeOvenInMinutes": 15,
+      "comment": "",
+      "imageName": "8.jpg",
+      "categories": [
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "createdAt": "2023-03-11 08:50:56",
+      "title": "Quesdadilla met drie kazen en rucola",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "9.jpg",
+      "categories": [
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "createdAt": "2023-03-11 08:50:56",
+      "title": "Spinazieburrito's uit de oven",
+      "description": "We vervangen de klassiekers in burrito's een keer voor spinazie. Ook lekker!",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 25,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 15,
+      "comment": "Lekker met salade van friséesla en yoghurtdressing.",
+      "imageName": "10.jpg",
+      "categories": [
+        {
+          "id": 4
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "createdAt": "2023-03-11 08:50:56",
+      "title": "Kaasflensjes met maïs, sla en ham",
+      "description": "",
+      "servingsPeople": 3,
+      "servingsPieces": 12,
+      "timePrepInMinutes": 25,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "11.jpg",
+      "categories": [
+        {
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "createdAt": "2023-03-11 08:50:56",
+      "title": "Preitaart",
+      "description": "",
+      "servingsPeople": 3,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 35,
+      "comment": "",
+      "imageName": "12.jpg",
+      "categories": [
+        {
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "createdAt": "2023-03-12 13:28:54",
+      "title": "Hasselback aardappels",
+      "description": "Adri's specialiteit voor de mannenkookdag.",
+      "servingsPeople": 1,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 50,
+      "comment": "",
+      "imageName": "13.jpg",
+      "categories": [
+        {
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "createdAt": "2023-03-12 13:28:54",
+      "title": "Chinese kool met kip en röstirondjes",
+      "description": "",
+      "servingsPeople": 1,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "",
+      "categories": [
+        {
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "createdAt": "2023-03-12 13:37:49",
+      "title": "Zelfgemaakte pastasaus",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 45,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Serveren met pasta en geraspte kaas.",
+      "imageName": "15.jpg",
+      "categories": [
+        {
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "createdAt": "2023-03-12 13:37:49",
+      "title": "Carbonarasaus",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Serveren met pasta.",
+      "imageName": "16.jpg",
+      "categories": [
+        {
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "createdAt": "2023-03-12 13:37:49",
+      "title": "Spaghetti met romige witlof",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "17.jpg",
+      "categories": [
+        {
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "createdAt": "2023-03-12 13:38:27",
+      "title": "Romige Spätzle met spinazie",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "",
+      "categories": [
+        {
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "createdAt": "2023-03-12 13:39:00",
+      "title": "Pastaovenschotel met groene currysaus",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 30,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 20,
+      "comment": "",
+      "imageName": "19.jpg",
+      "categories": [
+        {
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "createdAt": "2023-03-12 13:39:24",
+      "title": "Cannelloni met spinazie en gehakt",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 30,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 30,
+      "comment": "",
+      "imageName": "20.jpg",
+      "categories": [
+        {
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "createdAt": "2023-03-12 13:59:46",
+      "title": "Perzikengratin met varkensvlees",
+      "description": "",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 40,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 15,
+      "comment": "Serveren met rijst.",
+      "imageName": "",
+      "categories": [
+        {
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "createdAt": "2023-03-12 13:59:46",
+      "title": "Citroenkip",
+      "description": "",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Serveren met rijst.",
+      "imageName": "",
+      "categories": [
+        {
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "createdAt": "2023-03-14 13:46:15",
+      "title": "American cookies",
+      "description": "",
+      "servingsPeople": 0,
+      "servingsPieces": 25,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 10,
+      "comment": "",
+      "imageName": "23.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "createdAt": "2023-03-14 13:48:52",
+      "title": "Zandkoekjes",
+      "description": "",
+      "servingsPeople": 0,
+      "servingsPieces": 20,
+      "timePrepInMinutes": 25,
+      "timeWaitInMinutes": 30,
+      "timeOvenInMinutes": 20,
+      "comment": "",
+      "imageName": "24.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "createdAt": "2023-03-14 13:48:52",
+      "title": "Appelroosjes van bladerdeeg",
+      "description": "",
+      "servingsPeople": 0,
+      "servingsPieces": 11,
+      "timePrepInMinutes": 75,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 25,
+      "comment": "",
+      "imageName": "25.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "createdAt": "2023-03-14 13:48:52",
+      "title": "Kokos-chocotaart",
+      "description": "",
+      "servingsPeople": 0,
+      "servingsPieces": 12,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 25,
+      "comment": "",
+      "imageName": "26.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "createdAt": "2023-03-14 13:48:52",
+      "title": "Apfelstrudel",
+      "description": "\"Ohne Rum schmeckt es nicht.\" - Stockerhof",
+      "servingsPeople": 0,
+      "servingsPieces": 8,
+      "timePrepInMinutes": 30,
+      "timeWaitInMinutes": 30,
+      "timeOvenInMinutes": 40,
+      "comment": "Serveren met vanillesaus.",
+      "imageName": "27.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "createdAt": "2023-03-14 14:00:19",
+      "title": "Vanillesaus",
+      "description": "Speciaal voor de Apfelstrudel.",
+      "servingsPeople": 0,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "28.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "createdAt": "2023-03-14 14:00:19",
+      "title": "Bananenbrood",
+      "description": "Past precies in een kleine tulband. Lekker, leuk en makkelijk te snijden.",
+      "servingsPeople": 0,
+      "servingsPieces": 10,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 60,
+      "comment": "",
+      "imageName": "29.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "createdAt": "2023-03-14 15:01:57",
+      "title": "Klassieke rundergoulash",
+      "description": "",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 30,
+      "timeWaitInMinutes": 90,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "30.jpg",
+      "categories": [
+        {
+          "id": 2
+        },
+        {
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "createdAt": "2023-03-14 15:23:35",
+      "title": "Speculaas",
+      "description": "Superleuk met de notenkrakerspeculaasplank!",
+      "servingsPeople": 0,
+      "servingsPieces": 2,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 120,
+      "timeOvenInMinutes": 15,
+      "comment": "In een trommel 2 weken houdbaar.",
+      "imageName": "31.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "createdAt": "2023-03-14 16:16:37",
+      "title": "Kirschkuchen",
+      "description": "Op de Oostenrijkse manier. Snel om te maken en heel lekker!",
+      "servingsPeople": 0,
+      "servingsPieces": 10,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 30,
+      "comment": "",
+      "imageName": "DSC_0876.JPG",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "createdAt": "2023-03-14 17:10:48",
+      "title": "Ameisenkuchen",
+      "description": "",
+      "servingsPeople": 0,
+      "servingsPieces": 10,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 50,
+      "comment": "",
+      "imageName": "DSC_0168.JPG",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "createdAt": "2023-03-14 17:53:21",
+      "title": "Appel-abrikoos kruimelvlaai",
+      "description": "",
+      "servingsPeople": 8,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 45,
+      "timeWaitInMinutes": 60,
+      "timeOvenInMinutes": 30,
+      "comment": "Alleen appel? Een appelkruimelvlaai maak je met 1 kilo appels. Je kunt de kruimelvlaai ook in een laag vlaaiblik van 30 cm doorsnede maken. De hoeveelheid gistdeeg en vulling is voldoende. Maak wel een dubbele portie kruimeldeeg om over het grotere oppervlak te strooien.",
+      "imageName": "DSC_0285.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "createdAt": "2023-03-14 18:07:28",
+      "title": "Appelkruimeltaart met bosbessen",
+      "description": "",
+      "servingsPeople": 10,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 45,
+      "comment": "Extra lekker met kaneelsuiker: meng 1 theelepel kaneel met 1 eetlepel poedersuiker. Strooi de kaneelsuiker met een cacaostrooier of theezeefje over de taart.",
+      "imageName": "DSC_0358.jpg",
+      "categories": [
+        {
+          "id": 7
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "createdAt": "2023-03-16 20:07:48",
+      "title": "Loaded potato",
+      "description": "Robbie's specialiteit voor de mannenkookdag.",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 35,
+      "comment": "",
+      "imageName": "36.jpg",
+      "categories": [
+        {
+          "id": 1
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "createdAt": "2023-03-21 17:17:20",
+      "title": "Zweedse gehaktballetjes",
+      "description": "Zoals bij de IKEA, maar dan thuis.",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Serveren met aardappels, groenten en vossenbessenjam.",
+      "imageName": "37.jpg",
+      "categories": [
+        {
+          "id": 1
+        }
+      ]
     }
-]
+  ]
