@@ -16,6 +16,6 @@ export class RecipeService {
   }
 
   getRecipe(id: number): Observable<Recipe> {
-    return this.getRecipes().pipe(map((recipes) => recipes.filter((recipe) => recipe.id === id)[0]));
+    return this.getRecipes().pipe(map((recipes) => recipes.filter((recipe) => recipe.id == id)[0]));
   }
 }
