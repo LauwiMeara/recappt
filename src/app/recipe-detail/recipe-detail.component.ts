@@ -6,12 +6,10 @@ import { RecipeService } from '../services/recipe.service';
 
 @Component({
   selector: 'app-recipe-detail',
-  templateUrl: './recipe-detail.component.html',
-  styleUrls: ['./recipe-detail.component.scss']
+  templateUrl: './recipe-detail.component.html'
 })
 export class RecipeDetailComponent {
-  recipe?: Recipe;
-  currentActiveStep = 0;
+  protected recipe?: Recipe;
 
   constructor(
     private route: ActivatedRoute,
@@ -23,13 +21,7 @@ export class RecipeDetailComponent {
     this.setRecipe();
   }
 
-  @HostListener('window:keydown.space', ['$event'])
-  onSpacebar(event: KeyboardEvent) {
-    event.preventDefault(); // prevent default space bar 'scroll down' browser behavior
-    this.nextStep();
-  }
-
-  nextStep(): void {
+  protected markNextStep(): void {
     if (this.recipe) {
       const activeStep = this.recipe?.steps.filter((step) => step.isActive)[0];
       if (!activeStep) {
@@ -43,12 +35,18 @@ export class RecipeDetailComponent {
     }
   }
 
-  goBack(): void {
+  protected goBack(): void {
     this.location.back();
   }
 
-  setRecipe(): void {
+  private setRecipe(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
     this.recipeService.getRecipe(id).subscribe((recipe) => (this.recipe = recipe));
+  }
+
+  @HostListener('window:keydown.space', ['$event'])
+  private onSpacebar(event: KeyboardEvent): void {
+    event.preventDefault(); // prevent default space bar 'scroll down' browser behavior
+    this.markNextStep();
   }
 }

@@ -7,13 +7,12 @@ import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-recipes',
-  templateUrl: './recipes.component.html',
-  styleUrls: ['./recipes.component.scss']
+  templateUrl: './recipes.component.html'
 })
 export class RecipesComponent {
-  recipes: Recipe[] = [];
-  categories: Category[] = [];
-  filteredCategories: number[] = [];
+  protected recipes: Recipe[] = [];
+  protected categories: Category[] = [];
+  protected filteredCategories: number[] = [];
 
   constructor(
     private recipeService: RecipeService,
@@ -24,7 +23,7 @@ export class RecipesComponent {
     this.setRecipes();
   }
 
-  setRecipes(): void {
+  private setRecipes(): void {
     this.recipeService.getRecipes().subscribe((recipes) => {
       this.recipes = recipes;
     });
@@ -33,7 +32,7 @@ export class RecipesComponent {
     });
   }
 
-  filter(categoryId: number) {
+  protected filterCategoriesByCategoryId(categoryId: number): void {
     if (!categoryId) {
       this.filteredCategories = [];
     } else if (this.filteredCategories.includes(categoryId)) {
@@ -43,15 +42,15 @@ export class RecipesComponent {
     }
   }
 
-  getNumberOfRecipes(categoryId: number): number {
-    return this.getFilteredRecipes(categoryId).length;
+  protected getNumberOfRecipes(categoryId: number): number {
+    return this.getRecipesFilteredByCategoryId(categoryId).length;
   }
 
-  hasNoRecipes(categoryId: number): boolean {
-    return this.getFilteredRecipes(categoryId).length === 0;
+  protected hasNoRecipes(categoryId: number): boolean {
+    return this.getRecipesFilteredByCategoryId(categoryId).length === 0;
   }
 
-  getFilteredRecipes(categoryId: number | null = null): Recipe[] {
+  protected getRecipesFilteredByCategoryId(categoryId: number | null = null): Recipe[] {
     let extendedFilteredCategories = this.filteredCategories.slice();
 
     if (categoryId) {
@@ -63,7 +62,7 @@ export class RecipesComponent {
     );
   }
 
-  getImageUrl(recipe: Recipe) {
+  protected getImageUrl(recipe: Recipe): string {
     return recipe.imageName && environment.imagesRecipesFilePath + recipe.imageName;
   }
 }
