@@ -4,7 +4,7 @@ import { Recipe } from './recipe';
 export interface Category {
   id: number;
   name: string;
-  number: number;
+  ordinal: number;
   iconName: IconDefinition;
   recipes: Recipe[];
 }

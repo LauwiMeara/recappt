@@ -2,43 +2,43 @@
     {
       "id": "1",
       "name": "Aardappels",
-      "number": 4,
+      "ordinal": 4,
       "iconName": "cookie"
     },
     {
       "id": "2",
       "name": "Pasta",
-      "number": 5,
+      "ordinal": 5,
       "iconName": "bacon"
     },
     {
       "id": "3",
       "name": "Salade",
-      "number": 1,
+      "ordinal": 1,
       "iconName": "seedling"
     },
     {
       "id": "4",
       "name": "Brood",
-      "number": 2,
+      "ordinal": 2,
       "iconName": "bread-slice"
     },
     {
       "id": "5",
       "name": "Ei",
-      "number": 3,
+      "ordinal": 3,
       "iconName": "egg"
     },
     {
       "id": "6",
       "name": "Rijst",
-      "number": 6,
+      "ordinal": 6,
       "iconName": "bowl-rice"
     },
     {
       "id": "7",
       "name": "Zoet",
-      "number": 7,
+      "ordinal": 7,
       "iconName": "cheese"
     }
   ]
