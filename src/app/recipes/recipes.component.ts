@@ -11,6 +11,8 @@ import { Subscription } from 'rxjs';
   templateUrl: './recipes.component.html'
 })
 export class RecipesComponent {
+  protected IMAGES_RECIPES_FILE_PATH = environment.imagesRecipesFilePath;
+
   protected categories: Category[] = [];
   protected filteredCategoryIds: number[] = [];
   protected recipes: Recipe[] = [];
@@ -61,10 +63,6 @@ export class RecipesComponent {
     return this.recipes.filter((recipe) =>
       extendedFilteredCategories.every((id) => recipe.categories.some((category) => category.id == id))
     );
-  }
-
-  protected getImageUrl(recipe: Recipe): string {
-    return recipe.imageName && environment.imagesRecipesFilePath + recipe.imageName;
   }
 
   private filterRecipes(categoryId: number = 0): Recipe[] {
