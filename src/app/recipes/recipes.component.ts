@@ -46,28 +46,17 @@ export class RecipesComponent {
   }
 
   protected getNumberOfRecipes(categoryId: number): number {
-    return this.getRecipesFilteredByCategoryId(categoryId).length;
+    return this.filterRecipes(categoryId).length;
   }
 
   protected hasNoRecipes(categoryId: number): boolean {
-    return this.getRecipesFilteredByCategoryId(categoryId).length === 0;
+    return this.filterRecipes(categoryId).length === 0;
   }
 
-  protected getRecipesFilteredByCategoryId(categoryId: number | null = null): Recipe[] {
-    let extendedFilteredCategories = this.filteredCategoryIds.slice();
-
-    if (categoryId) {
-      extendedFilteredCategories.push(categoryId);
-    }
-
+  private filterRecipes(categoryId: number = 0): Recipe[] {
+    const idsForFilter = categoryId ? this.filteredCategoryIds.concat(categoryId) : this.filteredCategoryIds;
     return this.recipes.filter((recipe) =>
-      extendedFilteredCategories.every((id) => recipe.categories.some((category) => category.id == id))
-    );
-  }
-
-  private filterRecipes(): Recipe[] {
-    return this.recipes.filter((recipe) =>
-      this.filteredCategoryIds.every((id) => recipe.categories.some((category) => category.id == id))
+      idsForFilter.every((id) => recipe.categories.some((category) => category.id == id))
     );
   }
 
