@@ -8,7 +8,7 @@ import { environment } from 'src/environments/environment';
 @Component({
   selector: 'app-recipes',
   templateUrl: './recipes.component.html',
-  styleUrls: ['./recipes.component.scss'],
+  styleUrls: ['./recipes.component.scss']
 })
 export class RecipesComponent {
   recipes: Recipe[] = [];
@@ -17,7 +17,7 @@ export class RecipesComponent {
 
   constructor(
     private recipeService: RecipeService,
-    private categoryService: CategoryService,
+    private categoryService: CategoryService
   ) {}
 
   ngOnInit(): void {
@@ -37,9 +37,7 @@ export class RecipesComponent {
     if (!categoryId) {
       this.filteredCategories = [];
     } else if (this.filteredCategories.includes(categoryId)) {
-      this.filteredCategories = this.filteredCategories.filter(
-        (id) => id != categoryId,
-      );
+      this.filteredCategories = this.filteredCategories.filter((id) => id != categoryId);
     } else {
       this.filteredCategories.push(categoryId);
     }
@@ -61,15 +59,11 @@ export class RecipesComponent {
     }
 
     return this.recipes.filter((recipe) =>
-      extendedFilteredCategories.every((id) =>
-        recipe.categories.some((category) => category.id == id),
-      ),
+      extendedFilteredCategories.every((id) => recipe.categories.some((category) => category.id == id))
     );
   }
 
   getImageUrl(recipe: Recipe) {
-    return (
-      recipe.imageName && environment.imagesRecipesFilePath + recipe.imageName
-    );
+    return recipe.imageName && environment.imagesRecipesFilePath + recipe.imageName;
   }
 }

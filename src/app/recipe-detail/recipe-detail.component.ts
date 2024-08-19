@@ -7,7 +7,7 @@ import { RecipeService } from '../services/recipe.service';
 @Component({
   selector: 'app-recipe-detail',
   templateUrl: './recipe-detail.component.html',
-  styleUrls: ['./recipe-detail.component.scss'],
+  styleUrls: ['./recipe-detail.component.scss']
 })
 export class RecipeDetailComponent {
   recipe?: Recipe;
@@ -16,7 +16,7 @@ export class RecipeDetailComponent {
   constructor(
     private route: ActivatedRoute,
     private recipeService: RecipeService,
-    private location: Location,
+    private location: Location
   ) {}
 
   ngOnInit(): void {
@@ -49,8 +49,6 @@ export class RecipeDetailComponent {
 
   setRecipe(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.recipeService
-      .getRecipe(id)
-      .subscribe((recipe) => (this.recipe = recipe));
+    this.recipeService.getRecipe(id).subscribe((recipe) => (this.recipe = recipe));
   }
 }

@@ -5,7 +5,7 @@ import { environment } from 'src/environments/environment';
 import { Category } from '../models/category';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
 export class CategoryService {
   private categoriesUrl = 'assets/categories.json';

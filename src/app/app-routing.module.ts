@@ -5,11 +5,11 @@ import { RecipesComponent } from './recipes/recipes.component';
 
 const routes: Routes = [
   { path: 'recipes', component: RecipesComponent },
-  { path: 'recipes/:id', component: RecipeDetailComponent },
+  { path: 'recipes/:id', component: RecipeDetailComponent }
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
+  exports: [RouterModule]
 })
 export class AppRoutingModule {}

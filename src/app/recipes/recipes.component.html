@@ -3,8 +3,7 @@
     <li
       (click)="filter(0)"
       [ngClass]="{ 'bg-gradient-amber-300': filteredCategories.length == 0 }"
-      class="col-span-2 cursor-pointer items-center bg-gradient-amber-100 p-2 text-center"
-    >
+      class="col-span-2 cursor-pointer items-center bg-gradient-amber-100 p-2 text-center">
       <div><fa-icon icon="utensils"></fa-icon></div>
       <div>
         <span>Alle recepten</span>
@@ -18,8 +17,7 @@
         'bg-gradient-amber-300': filteredCategories.includes(category.id),
         'pointer-events-none opacity-25': hasNoRecipes(category.id)
       }"
-      class="cursor-pointer items-center bg-gradient-amber-100 p-2 text-center"
-    >
+      class="cursor-pointer items-center bg-gradient-amber-100 p-2 text-center">
       <div><fa-icon [icon]="category.iconName"></fa-icon></div>
       <div>
         <span>{{ category.name }}</span>
@@ -33,14 +31,12 @@
   <li
     routerLink="recipes/{{ recipe.id }}"
     *ngFor="let recipe of getFilteredRecipes()"
-    class="m-5 aspect-square cursor-pointer divide-y divide-recappt-gray rounded-lg bg-recappt-white"
-  >
+    class="m-5 aspect-square cursor-pointer divide-y divide-recappt-gray rounded-lg bg-recappt-white">
     <div
       [ngStyle]="{ 'background-image': 'url(' + getImageUrl(recipe) + ')' }"
-      class="flex h-3/4 w-full rounded-t-lg bg-cover bg-center"
-    >
-    </div>
-    <div class="flex h-1/4 items-center justify-center rounded-b-lg bg-gradient-recappt-white p-2 text-center font-semibold">
+      class="flex h-3/4 w-full rounded-t-lg bg-cover bg-center"></div>
+    <div
+      class="flex h-1/4 items-center justify-center rounded-b-lg bg-gradient-recappt-white p-2 text-center font-semibold">
       {{ recipe.title }}
     </div>
   </li>

@@ -13,14 +13,9 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 
 @NgModule({
   declarations: [AppComponent, RecipesComponent, RecipeDetailComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    FontAwesomeModule,
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, FontAwesomeModule],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {
   constructor(library: FaIconLibrary) {

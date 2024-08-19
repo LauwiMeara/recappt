@@ -9,31 +9,25 @@
     <div class="mr-5 flex w-1/6 flex-col">
       <div class="mb-5">
         <div *ngIf="recipe.servingsPeople" class="flex flex-row">
-            <fa-icon icon="user" class="w-6"></fa-icon>
-            <span class="w-full">
-                {{ recipe.servingsPeople }}
-                {{ recipe.servingsPeople == 1 ? "persoon" : "personen" }}
-            </span>
+          <fa-icon icon="user" class="w-6"></fa-icon>
+          <span class="w-full">
+            {{ recipe.servingsPeople }}
+            {{ recipe.servingsPeople == 1 ? "persoon" : "personen" }}
+          </span>
         </div>
         <div *ngIf="recipe.servingsPieces" class="flex flex-row">
-            <fa-icon icon="chart-pie" class="w-6"></fa-icon>
-            <span class="w-full">
-                {{ recipe.servingsPieces }}
-                {{ recipe.servingsPieces == 1 ? "stuk" : "stukken" }}
-            </span>
+          <fa-icon icon="chart-pie" class="w-6"></fa-icon>
+          <span class="w-full">
+            {{ recipe.servingsPieces }}
+            {{ recipe.servingsPieces == 1 ? "stuk" : "stukken" }}
+          </span>
         </div>
         <div class="flex flex-row">
           <fa-icon icon="clock" class="w-6"></fa-icon>
           <div class="flex w-full flex-col">
-            <div *ngIf="recipe.timePrepInMinutes">
-              {{ recipe.timePrepInMinutes }} minuten bereiding
-            </div>
-            <div *ngIf="recipe.timeWaitInMinutes">
-              {{ recipe.timeWaitInMinutes }} minuten wachten
-            </div>
-            <div *ngIf="recipe.timeOvenInMinutes">
-              {{ recipe.timeOvenInMinutes }} minuten oven
-            </div>
+            <div *ngIf="recipe.timePrepInMinutes">{{ recipe.timePrepInMinutes }} minuten bereiding</div>
+            <div *ngIf="recipe.timeWaitInMinutes">{{ recipe.timeWaitInMinutes }} minuten wachten</div>
+            <div *ngIf="recipe.timeOvenInMinutes">{{ recipe.timeOvenInMinutes }} minuten oven</div>
           </div>
         </div>
       </div>
@@ -51,8 +45,7 @@
         <div
           *ngFor="let step of recipe.steps"
           [ngClass]="{ 'rounded-lg bg-amber-100': step.isActive }"
-          class="step p-2"
-        >
+          class="step p-2">
           <span class="font-bold">{{ step.number }}. </span>
           <span>{{ step.description }}</span>
         </div>
@@ -65,7 +58,6 @@
 <button
   type="button"
   class="mb-5 h-16 w-32 cursor-pointer items-center rounded-lg bg-gradient-recappt-white text-center text-xl"
-  (click)="goBack()"
->
+  (click)="goBack()">
   <fa-icon icon="arrow-left-long" class="w-6"></fa-icon>
 </button>
