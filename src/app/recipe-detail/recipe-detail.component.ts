@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { Recipe } from '../models/recipe';
 import { RecipeService } from '../services/recipe.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-recipe-detail',
@@ -10,6 +11,7 @@ import { RecipeService } from '../services/recipe.service';
 })
 export class RecipeDetailComponent {
   protected recipe?: Recipe;
+  private subscriptions: Subscription[] = [];
 
   constructor(
     private route: ActivatedRoute,
@@ -19,6 +21,10 @@ export class RecipeDetailComponent {
 
   ngOnInit(): void {
     this.setRecipe();
+  }
+
+  ngOnDestroy(): void {
+    this.subscriptions.forEach((subscription) => subscription.unsubscribe());
   }
 
   protected markNextStep(): void {
@@ -41,7 +47,7 @@ export class RecipeDetailComponent {
 
   private setRecipe(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.recipeService.getRecipe(id).subscribe((recipe) => (this.recipe = recipe));
+    this.subscriptions.push(this.recipeService.getRecipe(id).subscribe((recipe) => (this.recipe = recipe)));
   }
 
   @HostListener('window:keydown.space', ['$event'])
