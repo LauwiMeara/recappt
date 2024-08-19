@@ -65,10 +65,9 @@ export class RecipesComponent {
     );
   }
 
-  private filterRecipes(categoryId: number = 0): Recipe[] {
-    const idsForFilter = categoryId ? this.filteredCategoryIds.concat(categoryId) : this.filteredCategoryIds;
+  private filterRecipes(): Recipe[] {
     return this.recipes.filter((recipe) =>
-      idsForFilter.every((id) => recipe.categories.some((category) => category.id == id))
+      this.filteredCategoryIds.every((id) => recipe.categories.some((category) => category.id == id))
     );
   }
 

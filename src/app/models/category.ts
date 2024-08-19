@@ -6,5 +6,4 @@ export interface Category {
   name: string;
   ordinal: number;
   iconName: IconDefinition;
-  recipes: Recipe[];
 }
