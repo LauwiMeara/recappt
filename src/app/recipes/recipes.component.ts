@@ -4,15 +4,18 @@ import { RecipeService } from '../services/recipe.service';
 import { Category } from '../models/category';
 import { CategoryService } from '../services/category.service';
 import { environment } from 'src/environments/environment';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-recipes',
   templateUrl: './recipes.component.html'
 })
 export class RecipesComponent {
-  protected recipes: Recipe[] = [];
   protected categories: Category[] = [];
-  protected filteredCategories: number[] = [];
+  protected filteredCategoryIds: number[] = [];
+  protected recipes: Recipe[] = [];
+  protected filteredRecipes: Recipe[] = [];
+  private subscriptions: Subscription[] = [];
 
   constructor(
     private recipeService: RecipeService,
@@ -23,22 +26,20 @@ export class RecipesComponent {
     this.setRecipes();
   }
 
-  private setRecipes(): void {
-    this.recipeService.getRecipes().subscribe((recipes) => {
-      this.recipes = recipes;
-    });
-    this.categoryService.getCategories().subscribe((categories) => {
-      this.categories = categories;
-    });
+  ngOnDestroy(): void {
+    this.subscriptions.forEach((subscription) => subscription.unsubscribe());
   }
 
-  protected filterCategoriesByCategoryId(categoryId: number): void {
+  protected filter(categoryId: number = 0): void {
     if (!categoryId) {
-      this.filteredCategories = [];
-    } else if (this.filteredCategories.includes(categoryId)) {
-      this.filteredCategories = this.filteredCategories.filter((id) => id != categoryId);
+      this.filteredCategoryIds = [];
+      this.filteredRecipes = this.recipes;
+    } else if (this.filteredCategoryIds.includes(categoryId)) {
+      this.filteredCategoryIds = this.filteredCategoryIds.filter((id) => id != categoryId);
+      this.filteredRecipes = this.filterRecipes();
     } else {
-      this.filteredCategories.push(categoryId);
+      this.filteredCategoryIds.push(categoryId);
+      this.filteredRecipes = this.filterRecipes();
     }
   }
 
@@ -51,7 +52,7 @@ export class RecipesComponent {
   }
 
   protected getRecipesFilteredByCategoryId(categoryId: number | null = null): Recipe[] {
-    let extendedFilteredCategories = this.filteredCategories.slice();
+    let extendedFilteredCategories = this.filteredCategoryIds.slice();
 
     if (categoryId) {
       extendedFilteredCategories.push(categoryId);
@@ -64,5 +65,26 @@ export class RecipesComponent {
 
   protected getImageUrl(recipe: Recipe): string {
     return recipe.imageName && environment.imagesRecipesFilePath + recipe.imageName;
+  }
+
+  private filterRecipes(categoryId: number = 0): Recipe[] {
+    const idsForFilter = categoryId ? this.filteredCategoryIds.concat(categoryId) : this.filteredCategoryIds;
+    return this.recipes.filter((recipe) =>
+      idsForFilter.every((id) => recipe.categories.some((category) => category.id == id))
+    );
+  }
+
+  private setRecipes(): void {
+    this.subscriptions.push(
+      this.recipeService.getRecipes().subscribe((recipes) => {
+        this.recipes = recipes;
+        this.filteredRecipes = recipes;
+      })
+    );
+    this.subscriptions.push(
+      this.categoryService.getCategories().subscribe((categories) => {
+        this.categories = categories;
+      })
+    );
   }
 }

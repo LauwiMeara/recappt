@@ -1,26 +1,28 @@
 <div class="sticky top-0 bg-gradient-recappt-gray-to-transparent py-8 px-5">
   <ul class="grid select-none grid-cols-9 divide-x divide-recappt-gray font-header text-3xl">
+    <!-- Button for all recipes -->
     <li
-      (click)="filterCategoriesByCategoryId(0)"
-      [ngClass]="{ 'bg-gradient-amber-300': filteredCategories.length == 0 }"
+      (click)="filter()"
+      [ngClass]="{ 'bg-gradient-amber-300': filteredCategoryIds.length == 0 }"
       class="col-span-2 cursor-pointer items-center bg-gradient-amber-100 p-2 text-center">
       <div><fa-icon icon="utensils"></fa-icon></div>
       <div>
-        <span>Alle recepten</span>
+        <span>Alle recepten </span>
         <span class="font-body text-xl font-light">[{{ recipes.length }}]</span>
       </div>
     </li>
+    <!-- Buttons for categories -->
     <li
       *ngFor="let category of categories"
-      (click)="filterCategoriesByCategoryId(category.id)"
+      (click)="filter(category.id)"
       [ngClass]="{
-        'bg-gradient-amber-300': filteredCategories.includes(category.id),
+        'bg-gradient-amber-300': filteredCategoryIds.includes(category.id),
         'pointer-events-none opacity-25': hasNoRecipes(category.id)
       }"
       class="cursor-pointer items-center bg-gradient-amber-100 p-2 text-center">
       <div><fa-icon [icon]="category.iconName"></fa-icon></div>
       <div>
-        <span>{{ category.name }}</span>
+        <span>{{ category.name }} </span>
         <span class="font-body text-xl font-light">[{{ getNumberOfRecipes(category.id) }}]</span>
       </div>
     </li>
@@ -30,7 +32,7 @@
 <ul class="recipes grid grid-cols-5">
   <li
     routerLink="{{ recipe.id }}"
-    *ngFor="let recipe of getRecipesFilteredByCategoryId()"
+    *ngFor="let recipe of filteredRecipes"
     class="bg-recappt-white aspect-square m-5 rounded-lg divide-y divide-recappt-gray cursor-pointer">
     <div
       [ngStyle]="{ 'background-image': 'url(' + getImageUrl(recipe) + ')' }"
