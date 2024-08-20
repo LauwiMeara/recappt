@@ -6,4 +6,6 @@ export interface Category {
   name: string;
   ordinal: number;
   iconName: IconDefinition;
+  filteredRecipes: Recipe[];
+  isInFilter: boolean;
 }
