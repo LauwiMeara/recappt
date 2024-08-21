@@ -4,7 +4,7 @@ import { RecipeService } from '../services/recipe.service';
 import { Category } from '../models/category';
 import { CategoryService } from '../services/category.service';
 import { environment } from 'src/environments/environment';
-import { combineLatest, combineLatestWith, Subscription } from 'rxjs';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-recipes',
