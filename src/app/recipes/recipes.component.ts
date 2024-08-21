@@ -35,19 +35,20 @@ export class RecipesComponent {
   protected addOrRemoveCategoryIdFromFilter(categoryId: number = 0): void {
     if (!categoryId) {
       // Turn all filters off
+      this.filteredCategoryIds.forEach((categoryId) => this.adjustCategoryIsInFilter(categoryId));
       this.filteredCategoryIds = [];
       this.filteredRecipes = this.recipes;
       this.adjustFilteredRecipesWithinCategories();
     } else if (this.filteredCategoryIds.includes(categoryId)) {
       // Turn filter off for given categoryId
-      this.filteredCategoryIds = this.filteredCategoryIds.filter((id) => id != categoryId);
       this.adjustCategoryIsInFilter(categoryId);
+      this.filteredCategoryIds = this.filteredCategoryIds.filter((id) => id != categoryId);
       this.filteredRecipes = this.filterRecipes();
       this.adjustFilteredRecipesWithinCategories();
     } else {
       // Turn filter on for given categoryId
-      this.filteredCategoryIds.push(categoryId);
       this.adjustCategoryIsInFilter(categoryId);
+      this.filteredCategoryIds.push(categoryId);
       this.filteredRecipes = this.filterRecipes(categoryId);
       this.adjustFilteredRecipesWithinCategories();
     }
@@ -70,14 +71,12 @@ export class RecipesComponent {
   }
 
   private setRecipes(): void {
-    const recipes$ = this.recipeService.getRecipes();
-    const categories$ = this.categoryService.getCategories();
     this.subscriptions.push(
-      recipes$.subscribe((recipes) => {
+      this.recipeService.getRecipes().subscribe((recipes) => {
         this.recipes = recipes;
         this.filteredRecipes = recipes;
       }),
-      categories$.subscribe((categories) => {
+      this.categoryService.getCategories().subscribe((categories) => {
         this.categories = categories;
         this.categories.forEach((category) => {
           category.filteredRecipes = this.filterRecipes(category.id);
