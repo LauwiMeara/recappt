@@ -3,29 +3,33 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 import { Recipe } from '../models/recipe';
 import { RecipeService } from '../services/recipe.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-recipe-detail',
   templateUrl: './recipe-detail.component.html',
-  styleUrls: ['./recipe-detail.component.scss']
 })
 export class RecipeDetailComponent {
-  recipe?: Recipe;
-  currentActiveStep = 0;
+  protected recipe?: Recipe;
+  private subscription = new Subscription();
 
-  constructor(private route: ActivatedRoute, private recipeService: RecipeService, private location: Location) {}
+  constructor(private route: ActivatedRoute, private recipeService: RecipeService, private location: Location) { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
     this.setRecipe();
   }
 
+  public ngOnDestroy(): void {
+    this.subscription.unsubscribe();
+  }
+
   @HostListener('window:keydown.space', ['$event'])
-  onSpacebar(event: KeyboardEvent) {
+  public onSpacebar(event: KeyboardEvent) {
     event.preventDefault(); // prevent default space bar 'scroll down' browser behavior
     this.nextStep();
   }
 
-  nextStep(): void{
+  protected nextStep(): void {
     if (this.recipe) {
       const activeStep = this.recipe?.steps.filter(step => step.isActive)[0];
       if (!activeStep) {
@@ -39,13 +43,12 @@ export class RecipeDetailComponent {
     }
   }
 
-  goBack(): void {
+  protected goBack(): void {
     this.location.back();
   }
 
-  setRecipe(): void {
+  private setRecipe(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.recipeService.getRecipe(id).subscribe(recipe => 
-      this.recipe = recipe)
+    this.subscription.add(this.recipeService.getRecipe(id).subscribe(recipe => this.recipe = recipe));
   }
 }
