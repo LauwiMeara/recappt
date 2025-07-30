@@ -4,6 +4,8 @@ import { RecipeService } from '../services/recipe.service'
 import { Category } from '../models/category';
 import { CategoryService } from '../services/category.service'
 import { environment } from 'src/environments/environment';
+import { Subscription } from 'rxjs';
+
 
 @Component({
   selector: 'app-recipes',
@@ -30,9 +32,6 @@ export class RecipesComponent {
 
   protected addOrRemoveCategoryIdFromFilter(categoryId: number = 0): void {
     if (!categoryId) {
-      this.filteredCategories = [];
-    } else if (this.filteredCategories.includes(categoryId)) {
-      this.filteredCategories = this.filteredCategories.filter(id => id != categoryId);
       // Turn all filters off
       this.filteredCategoryIds.forEach((categoryId) => this.adjustCategoryIsInFilter(categoryId));
       this.filteredCategoryIds = [];
@@ -53,14 +52,6 @@ export class RecipesComponent {
     }
   }
 
-  protected getNumberOfRecipes(categoryId: number): number {
-    return this.getFilteredRecipes(categoryId).length;
-  }
-
-  protected hasNoRecipes(categoryId: number): boolean {
-    return this.getFilteredRecipes(categoryId).length === 0;
-  }
-
   private adjustFilteredRecipesWithinCategories(): void {
     this.categories.forEach((category) => (category.filteredRecipes = this.filterRecipes(category.id)));
   }
@@ -77,19 +68,24 @@ export class RecipesComponent {
     );
   }
 
-    return this.recipes.filter(recipe => extendedFilteredCategories.every(id => recipe.categories.some(category => category.id == id)));
-  }
-
   protected getImageUrl(recipe: Recipe) {
     return recipe.imageName && environment.imagesRecipesFilePath + recipe.imageName;
   }
 
   private setRecipes(): void {
-    this.subscription.add(this.recipeService.getRecipes().subscribe(recipes => {
-      this.recipes = recipes;
-    }));
-    this.subscription.add(this.categoryService.getCategories().subscribe(categories => {
-      this.categories = categories;
-    }));
+    this.subscription.add(
+      this.recipeService.getRecipes().subscribe((recipes) => {
+        this.recipes = recipes;
+        this.filteredRecipes = recipes;
+      })
+    );
+    this.subscription.add(
+      this.categoryService.getCategories().subscribe((categories) => {
+        this.categories = categories;
+        this.categories.forEach((category) => {
+          category.filteredRecipes = this.filterRecipes(category.id);
+        });
+      })
+    );
   }
 }

@@ -53,6 +53,6 @@ export class RecipeDetailComponent {
   @HostListener('window:keydown.space', ['$event'])
   private onSpacebar(event: KeyboardEvent) {
     event.preventDefault(); // prevent default space bar 'scroll down' browser behavior
-    this.nextStep();
+    this.markNextStep();
   }
 }
