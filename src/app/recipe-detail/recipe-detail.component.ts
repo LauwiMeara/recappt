@@ -11,7 +11,7 @@ import { Subscription } from 'rxjs';
 })
 export class RecipeDetailComponent {
   protected recipe?: Recipe;
-  private subscriptions: Subscription[] = [];
+  private subscription = new Subscription();
 
   constructor(
     private route: ActivatedRoute,
@@ -19,12 +19,12 @@ export class RecipeDetailComponent {
     private location: Location
   ) {}
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
     this.setRecipe();
   }
 
-  ngOnDestroy(): void {
-    this.subscriptions.forEach((subscription) => subscription.unsubscribe());
+  public ngOnDestroy(): void {
+    this.subscription.unsubscribe();
   }
 
   protected markNextStep(): void {
@@ -47,12 +47,12 @@ export class RecipeDetailComponent {
 
   private setRecipe(): void {
     const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.subscriptions.push(this.recipeService.getRecipe(id).subscribe((recipe) => (this.recipe = recipe)));
+    this.subscription.add(this.recipeService.getRecipe(id).subscribe(recipe => this.recipe = recipe));
   }
 
   @HostListener('window:keydown.space', ['$event'])
-  private onSpacebar(event: KeyboardEvent): void {
+  private onSpacebar(event: KeyboardEvent) {
     event.preventDefault(); // prevent default space bar 'scroll down' browser behavior
-    this.markNextStep();
+    this.nextStep();
   }
 }
