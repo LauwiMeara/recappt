@@ -27,7 +27,6 @@ export class RecipeService {
           map(ingredients => {
             recipe.ingredients = ingredients
               .filter(ingredient => ingredient.recipeId == recipe.id);
-            debugger;
             return recipe;
           })
         ),
