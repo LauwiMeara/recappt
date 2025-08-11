@@ -1,8 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Recipe } from '../models/recipe';
-import { map, Observable, switchMap, tap } from 'rxjs';
+import { filter, map, Observable, switchMap, tap } from 'rxjs';
 import { RecipeIngredient } from '../models/recipe-ingredient';
+import { RecipeStep } from '../models/recipe-step';
 
 @Injectable({
   providedIn: 'root'
@@ -10,6 +11,7 @@ import { RecipeIngredient } from '../models/recipe-ingredient';
 export class RecipeService {
   private recipesUrl = "assets/recipes.json";
   private ingredientsUrl = "assets/ingredients.json";
+  private recipeStepsUrl = "assets/recipe_steps.json";
 
   constructor(private http: HttpClient) { }
 
@@ -28,6 +30,14 @@ export class RecipeService {
           })
         ),
       ),
+      switchMap(recipe =>
+        this.http.get<RecipeStep[]>(this.recipeStepsUrl).pipe(
+          map(steps => {
+            recipe.steps = (steps as any[]).filter(step => step.recipe_id == recipe.id).sort((a, b) => a.number - b.number);
+            return recipe;
+          })
+        )
+      )
     );
   }
 }
