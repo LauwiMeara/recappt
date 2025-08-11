@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Recipe } from '../models/recipe';
-import { filter, map, Observable, switchMap, tap } from 'rxjs';
-import { jsonToRecipeIngredient, RecipeIngredient, RecipeIngredientJSON } from '../models/recipe-ingredient';
-import { jsonToRecipeStep, RecipeStep, RecipeStepJSON } from '../models/recipe-step';
+import { map, Observable, switchMap, tap } from 'rxjs';
+import { RecipeIngredient } from '../models/recipe-ingredient';
+import { RecipeStep } from '../models/recipe-step';
 
 @Injectable({
   providedIn: 'root'
@@ -23,22 +23,21 @@ export class RecipeService {
     return this.getRecipes().pipe(
       map(recipes => recipes.filter(recipe => recipe.id == id)[0]),
       switchMap(recipe =>
-        this.http.get<RecipeIngredientJSON[]>(this.ingredientsUrl).pipe(
+        this.http.get<RecipeIngredient[]>(this.ingredientsUrl).pipe(
           map(ingredients => {
             recipe.ingredients = ingredients
-              .filter(ingredient => ingredient.recipe_id == recipe.id)
-              .map(ingredient => jsonToRecipeIngredient(ingredient));
+              .filter(ingredient => ingredient.recipeId == recipe.id);
+            debugger;
             return recipe;
           })
         ),
       ),
       switchMap(recipe =>
-        this.http.get<RecipeStepJSON[]>(this.recipeStepsUrl).pipe(
+        this.http.get<RecipeStep[]>(this.recipeStepsUrl).pipe(
           map(steps => {
             recipe.steps = steps
-              .filter(step => step.recipe_id == recipe.id)
-              .sort((a, b) => a.number - b.number)
-              .map(step => jsonToRecipeStep(step));
+              .filter(step => step.recipeId == recipe.id)
+              .sort((a, b) => a.number - b.number);
             return recipe;
           })
         )
