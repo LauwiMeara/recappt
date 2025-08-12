@@ -1,10 +1,10 @@
 {
-  "name": "recappt-client",
+  "name": "recappt",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path dist --base-href /recappt-client/",
+    "build": "ng build --output-path dist --base-href /recappt/",
     "setupgithubpages": "cp ./dist/index.html ./dist/404.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

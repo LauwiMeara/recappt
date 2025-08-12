@@ -1,0 +1,1022 @@
+[
+  {
+    "id": 1,
+    "recipeId": 1,
+    "description": "Verwarm de oven voor op 200 °C (hetelucht). Snijd de uien in ringen.",
+    "number": 1
+  },
+  {
+    "id": 2,
+    "recipeId": 1,
+    "description": "Verdeel de aardappel en ui over een met bakpapier beklede bakplaat. Besprenkel met 2 eetlepels olie en breng op smaak met peper en zout. Schep om en bak 10 minuten in de oven.",
+    "number": 2
+  },
+  {
+    "id": 3,
+    "recipeId": 1,
+    "description": "Meng 2 eetlepels olie met 1 eetlepel ras el hanout. Schep de kruidenolie door de gerookte-kipreepjes.",
+    "number": 4
+  },
+  {
+    "id": 4,
+    "recipeId": 1,
+    "description": "Haal de traybake uit de oven en verdeel over de borden.",
+    "number": 7
+  },
+  {
+    "id": 5,
+    "recipeId": 2,
+    "description": "Maak in een ruime schaal een marinade van het basilicum, de knoflook, 6 el olie en het zout. Voeg de tomaten en mozzarella toe en schep om.",
+    "number": 2
+  },
+  {
+    "id": 6,
+    "recipeId": 2,
+    "description": "Breng een pan water met wat zout en 1 el olie aan de kook en kook de lasagne­bladen in 8 min. beetgaar. Giet af.",
+    "number": 3
+  },
+  {
+    "id": 7,
+    "recipeId": 2,
+    "description": "Snijd de tomaten en mozzarella in plakken. Pers de knoflook.",
+    "number": 1
+  },
+  {
+    "id": 8,
+    "recipeId": 2,
+    "description": "Leg op 4 borden 1 lasagneblad en bedek met van de tomaat en mozzarella. Leg er wat rucola op en dek af met 1 lasagnevel. Maak zo nog 2 lagen, eindig met een lasagnevel. Schep de achtergebleven marinade over de lasagne. Lekker met geschaafde Parmezaanse kaas.",
+    "number": 4
+  },
+  {
+    "id": 9,
+    "recipeId": 3,
+    "description": "Snijd de veldsla, kersen en mozzarella. Meng alles door elkaar.",
+    "number": 1
+  },
+  {
+    "id": 10,
+    "recipeId": 3,
+    "description": "Dresseer de salade met olijfolie en Italiaanse kruiden. Serveer met croutons.",
+    "number": 2
+  },
+  {
+    "id": 11,
+    "recipeId": 4,
+    "description": "Doe de zuurkool in een pan. Breng aan de kook. Laat op laag vuur 10 min. koken en laat uitlekken in een vergiet.",
+    "number": 1
+  },
+  {
+    "id": 12,
+    "recipeId": 4,
+    "description": "Omwikkel ondertussen de hotdogs elk met 1 plakje spek. Verhit de olie in een koekenpan en bak de worsten in 4 min. goudbruin. Keer regelmatig.",
+    "number": 2
+  },
+  {
+    "id": 13,
+    "recipeId": 4,
+    "description": "Snijd de pistolets overlangs doormidden en besmeer de onderste helften met de mosterd. Verdeel de zuurkool erover. Leg hierop 2 hotdogs. Leg de bovenkanten van de pistolets erop en serveer.",
+    "number": 3
+  },
+  {
+    "id": 14,
+    "recipeId": 5,
+    "description": "Verwarm de oven voor op 200 °C.",
+    "number": 1
+  },
+  {
+    "id": 15,
+    "recipeId": 5,
+    "description": "Leg de ciabatta in de oven totdat hij mooi bruin en knapperig is. Snijd ondertussen de tomaten en mozzarella in plakken.",
+    "number": 2
+  },
+  {
+    "id": 16,
+    "recipeId": 5,
+    "description": "Snijd de ciabatta overlangs doormidden. Besprenkel beide helften met olijfolie. Leg de tomaten en mozzarella om en om op de ciabatta. Strooi er Italiaanse kruiden overheen. Serveer.",
+    "number": 3
+  },
+  {
+    "id": 17,
+    "recipeId": 6,
+    "description": "Verwarm de oven voor op 180 °C.",
+    "number": 1
+  },
+  {
+    "id": 18,
+    "recipeId": 6,
+    "description": "Verwarm de melk en maak hierin het brood fijn.",
+    "number": 2
+  },
+  {
+    "id": 19,
+    "recipeId": 6,
+    "description": "Splits het ei. Voeg de eidooier samen met de krenten, rozijnen, 50 g suiker en 40 g boter toe aan de pap. Voeg enkele druppels citroensap toe.",
+    "number": 3
+  },
+  {
+    "id": 20,
+    "recipeId": 6,
+    "description": "Klop het eiwit stijf. Haal de pap van het vuur en schep het eiwit er luchtig doorheen.",
+    "number": 4
+  },
+  {
+    "id": 21,
+    "recipeId": 6,
+    "description": "Doe de pap in een met boter ingevette ovenschaal. Bestrooi het met paneermeel, suiker en kaneel. Leg er hier en daar een klontje boter op. Zet het in het midden van de oven totdat het een bruine korst heeft.",
+    "number": 5
+  },
+  {
+    "id": 22,
+    "recipeId": 7,
+    "description": "Verwarm de oven voor op 180 °C. Snijd de ham in reepjes, de ui in ringen en de tomaten in plakken. Verhit de olie in een wok en roerbak de ham en ui 2 min. Voeg de tomaten, andijvie en kruiden toe en roerbak nog 8 min. Verdeel over de ovenschaal.",
+    "number": 1
+  },
+  {
+    "id": 23,
+    "recipeId": 7,
+    "description": "Snijd het stokbrood in sneetjes van 1½ cm breed en dek de schotel daarmee dakpansgewijs af. Bestrooi met de kaas en bak in ca. 25 min. in het midden van de oven goudbruin.",
+    "number": 2
+  },
+  {
+    "id": 24,
+    "recipeId": 12,
+    "description": "Verwarm de oven voor op 200 ºC. Leg de plakjes hartige taartdeeg op het aanrecht om te ontdooien. Was de prei en snij deze in ringen.",
+    "number": 1
+  },
+  {
+    "id": 25,
+    "recipeId": 12,
+    "description": "Kook de prei 4 minuten in water. Giet het af en laat het uitlekken in een vergiet.",
+    "number": 2
+  },
+  {
+    "id": 26,
+    "recipeId": 12,
+    "description": "Bekleed ondertussen een ingevette quichevorm met het hartige taartdeeg. Prik er met een vork gaatjes in. Zet het hartige taartdeeg voor 5 minuten in de oven.",
+    "number": 3
+  },
+  {
+    "id": 27,
+    "recipeId": 12,
+    "description": "Klop ondertussen de eieren los in een kom. Meng de ricotta, Parmezaanse kaas, peper en ProvenÃ§aalse kruiden erdoor. Schep de prei door dit mengsel.",
+    "number": 4
+  },
+  {
+    "id": 28,
+    "recipeId": 12,
+    "description": "Haal de quichevorm uit de oven. Beleg de bodem met de helft van de ham. Giet de helft van het mengsel eroverheen. Beleg het mengsel met de rest van de ham en giet de rest van het mengsel eroverheen. Bak de taart in de oven goudbruin en gaar.",
+    "number": 5
+  },
+  {
+    "id": 29,
+    "recipeId": 11,
+    "description": "Roer in een ruime schaal bloem met 1 tl zout, 1/2 theelepel peper, 1 tl paprikapoeder, 1 ei en 200 ml melk tot een dik beslag.",
+    "number": 1
+  },
+  {
+    "id": 30,
+    "recipeId": 11,
+    "description": "Voeg nogmaals 200 ml melk en 100 ml water beetje voor beetje toe.",
+    "number": 2
+  },
+  {
+    "id": 31,
+    "recipeId": 11,
+    "description": "Roer de kaas door het beslag heen.",
+    "number": 3
+  },
+  {
+    "id": 32,
+    "recipeId": 11,
+    "description": "Maak de bosuitjes schoon en snijd ze in ringen. Laat de maïskorrels uitlekken. Maak de sla schoon en snijd deze in repen. Let op: bewaar nog een aantal hele slabladeren.",
+    "number": 4
+  },
+  {
+    "id": 33,
+    "recipeId": 11,
+    "description": "Meng de bosuitjes, maïs, reepjes sla, ham en 1/2 tl peper in een ruime schaal.",
+    "number": 5
+  },
+  {
+    "id": 34,
+    "recipeId": 11,
+    "description": "Verhit in koekenpannen wat olie. Schep een sauslepel beslag in elke pan en laat het beslag over de bodem lopen totdat de bodem bedekt is. Bak de flensjes aan beide kanten bruin.",
+    "number": 6
+  },
+  {
+    "id": 35,
+    "recipeId": 11,
+    "description": "Leg op elk flensje een slablad, een paar lepels van het mengsel en 1 el dressing. Rol de flensjes op of vouw ze dubbel.",
+    "number": 7
+  },
+  {
+    "id": 36,
+    "recipeId": 10,
+    "description": "Ontdooi de spinazie volgens de aanwijzingen op de verpakking. Verwarm de oven voor op 200 ºC.",
+    "number": 1
+  },
+  {
+    "id": 37,
+    "recipeId": 10,
+    "description": "Snipper de ui. Verhit de olie in een braadpan en fruit de ui 1 min. Voeg het gehakt toe en bak in ca. 3 min. rul. Voeg de seasoningmix (uit de doos) en het water toe. Laat de spinazie in een zeef uitlekken. Druk met een lepel het vocht eruit. Schep de spinazie door het gehaktmengsel. Schep de kaas erdoor. Was de tomaten en snijd in stukjes.",
+    "number": 2
+  },
+  {
+    "id": 38,
+    "recipeId": 10,
+    "description": "Verdeel het gehaktmengsel en de tomaat over de tortilla's en rol op. Vet de ovenschaal in. Leg de tortilla's in de ovenschaal, verdeel de room erover en bestrooi met de rest van de kaas. Laat de burrito's in ca. 15 min. in de oven bruin kleuren. Serveer met salsa (uit doos).",
+    "number": 3
+  },
+  {
+    "id": 39,
+    "recipeId": 9,
+    "description": "Snijd de ui in ringen. Rasp de kaas en snij de kaas in kleine, dunne blokjes.",
+    "number": 1
+  },
+  {
+    "id": 40,
+    "recipeId": 9,
+    "description": "Verdeel de drie soorten kaas, uiringen en rucola over 4 taco's. Bestrooi ze met wat peper. Dek ze af met de resterende taco's en druk ze goed aan.",
+    "number": 2
+  },
+  {
+    "id": 41,
+    "recipeId": 9,
+    "description": "Verwarm de taco's in de magnetron, in een grillpan of op de barbecue totdat de kaas gesmolten is.",
+    "number": 3
+  },
+  {
+    "id": 42,
+    "recipeId": 8,
+    "description": "Verwarm de oven voor op 200 ºC.",
+    "number": 1
+  },
+  {
+    "id": 43,
+    "recipeId": 8,
+    "description": "Los in een kommetje de gist en de suiker op in 25 ml handwarm water. Roer het mengsel glad.",
+    "number": 2
+  },
+  {
+    "id": 44,
+    "recipeId": 8,
+    "description": "Meng de bloem en het zout in een beslagkom door elkaar. Maak een kuiltje in het midden en schenk hierin de gistoplossing. Schenk de olie en 50 ml handwarm water erbij.",
+    "number": 3
+  },
+  {
+    "id": 45,
+    "recipeId": 8,
+    "description": "Meng het pizzadeeg met de hand tot een samenhangende massa die van de wand van de kom loslaat. Het deeg is goed als het nog enigszins plakkerig aanvoelt (als een post-it). Te plakkerig = bloem toevoegen, te droog = water toevoegen.",
+    "number": 4
+  },
+  {
+    "id": 46,
+    "recipeId": 8,
+    "description": "Maak van het deeg een bal en laat hem afgedekt 1 uur rijzen op een warme plek.",
+    "number": 5
+  },
+  {
+    "id": 47,
+    "recipeId": 8,
+    "description": "Rol het pizzadeeg uit tot een cirkel met een diameter van 20 cm. Leg het pizzadeeg op de bakplaat en maak de randen iets dikker.",
+    "number": 6
+  },
+  {
+    "id": 48,
+    "recipeId": 8,
+    "description": "Beleg de pizza naar wens en bak hem 15 minuten.",
+    "number": 7
+  },
+  {
+    "id": 49,
+    "recipeId": 1,
+    "description": "Haal de traybake na 10 minuten uit de oven. Voeg de broccoliroosjes en 1 eetlepel ras el hanout toe en schep om. Bak nogmaals 10 minuten in de oven.",
+    "number": 5
+  },
+  {
+    "id": 50,
+    "recipeId": 1,
+    "description": "Haal na 10 minuten de traybake weer uit de oven. Verdeel de kipreepjes erover en bak nog ca. 15 minuten.",
+    "number": 6
+  },
+  {
+    "id": 51,
+    "recipeId": 14,
+    "description": "Bereid de rÃ¶stirondjes volgens de gebruiksaanwijzing op de verpakking.",
+    "number": 1
+  },
+  {
+    "id": 52,
+    "recipeId": 14,
+    "description": "Snijd de kipfilet en Chinese kool in stukjes.",
+    "number": 2
+  },
+  {
+    "id": 53,
+    "recipeId": 14,
+    "description": "Verhit olijfolie in een wok. Bak de kipfilet gaar en voeg daarna de Chinese kool en kerriepoeder toe. Bak de kool in 3-5 minuten beetgaar.",
+    "number": 3
+  },
+  {
+    "id": 54,
+    "recipeId": 13,
+    "description": "Verwarm de oven voor op 220 ºC.",
+    "number": 1
+  },
+  {
+    "id": 55,
+    "recipeId": 13,
+    "description": "Schil de aardappel en leg hem even in een kom met koud water. Haal de aardappel uit het water, leg aan beide kanten van de aardappel een verhoging (bijvoorbeeld eetstokjes) en maak met een scherp mes inkepingen in de aardappel tot aan deze verhoging. De aardappel wordt dus niet volledig doorgesneden.",
+    "number": 2
+  },
+  {
+    "id": 56,
+    "recipeId": 13,
+    "description": "Leg de aardappel met de gesneden kant naar boven in een ovenschaal. Verspreid de helft van de boter erover. Breng het op smaak met zout en peper.",
+    "number": 3
+  },
+  {
+    "id": 57,
+    "recipeId": 13,
+    "description": "Bak de aardappel in de oven. Haal na 35-40 minuten de aardappel uit de oven en verdeel de resterende boter erover. Strooi de kaas en paneermeel over de aardappel. Leg de aardappel terug in de oven en bak hem nogmaals 20 minuten tot hij goudbruin is.",
+    "number": 4
+  },
+  {
+    "id": 58,
+    "recipeId": 15,
+    "description": "Snijd het steeltje van de rode peper. Halveer de peper in de lengte en verwijder met een scherp mesje de zaadlijsten. Snijd het vruchtvlees in kleine stukjes. Snipper de ui. Snijd de pancetta in stukjes.",
+    "number": 1
+  },
+  {
+    "id": 59,
+    "recipeId": 15,
+    "description": "Verhit olie in een hapjespan en bak de rode peper, pancetta en ui op middelhoog vuur 5 minuten.",
+    "number": 2
+  },
+  {
+    "id": 60,
+    "recipeId": 15,
+    "description": "Snijd ondertussen de tomaten in blokken. Voeg de tomaten toe aan de hapjespan en laat op middelhoog vuur 30 minuten koken. Roer regelmatig. Breng op smaak met peper en zout.",
+    "number": 3
+  },
+  {
+    "id": 61,
+    "recipeId": 16,
+    "description": "Klop de slagroom met de eieren door elkaar met peper, zout en peterselie.",
+    "number": 1
+  },
+  {
+    "id": 62,
+    "recipeId": 16,
+    "description": "Bak de spekreepjes en de fijngesneden knoflook in een koekenpan. Laat de pan daarna iets afkoelen.",
+    "number": 2
+  },
+  {
+    "id": 63,
+    "recipeId": 16,
+    "description": "Voeg op laag vuur het slagroommengsel en de geraspte kaas toe. Roer tot het ei licht stolt.",
+    "number": 3
+  },
+  {
+    "id": 64,
+    "recipeId": 17,
+    "description": "Kook de spaghetti volgens de aanwijzingen op de verpakking beetgaar en giet af.",
+    "number": 1
+  },
+  {
+    "id": 65,
+    "recipeId": 17,
+    "description": "Snijd ondertussen de onderkant van de witlof, halveer het lof in de lengte en verwijder de harde kern. Snijd de blaadjes in de lengte in repen van 1 cm breed.",
+    "number": 2
+  },
+  {
+    "id": 66,
+    "recipeId": 17,
+    "description": "Verhit olijfolie en bak de hamblokjes 2 minuten. Voeg het lof toe en bak 2 minuten. Schenk de slagroom erbij en laat het 4 minuten zachtjes koken. Breng eventueel op smaak met peper en zout.",
+    "number": 3
+  },
+  {
+    "id": 67,
+    "recipeId": 17,
+    "description": "Schep de 'saus' door de spaghetti. Bestrooi de spaghetti met de kaas.",
+    "number": 4
+  },
+  {
+    "id": 68,
+    "recipeId": 18,
+    "description": "Snijd en was de spinazie.",
+    "number": 1
+  },
+  {
+    "id": 69,
+    "recipeId": 18,
+    "description": "Kook de SpÃ¤tzle volgens de aanwijzingen op de verpakking.",
+    "number": 2
+  },
+  {
+    "id": 70,
+    "recipeId": 18,
+    "description": "Fruit de knoflook en ui. Voeg de spekreepjes toe en bak ze gaar. Voeg de spinazie toe. Voeg op het laatst de crème fraîche toe en breng op smaak met zout, peper en Italiaanse kruiden.",
+    "number": 3
+  },
+  {
+    "id": 71,
+    "recipeId": 19,
+    "description": "Verwarm de oven voor op 200 ºC.",
+    "number": 1
+  },
+  {
+    "id": 72,
+    "recipeId": 19,
+    "description": "Kook de pasta beetgaar.",
+    "number": 2
+  },
+  {
+    "id": 73,
+    "recipeId": 19,
+    "description": "Snijd de kipfilet in stukjes. Snijd de ui, champignons, paprika, courgette en knoflook in kleine stukjes. Verhit olijfolie in een koekenpan en bak hierin de kipstukjes en de gesneden groenten.",
+    "number": 3
+  },
+  {
+    "id": 74,
+    "recipeId": 19,
+    "description": "Voeg het blokje bouillon toe en laat dit inkoken tot het vocht bijna weg is.",
+    "number": 4
+  },
+  {
+    "id": 75,
+    "recipeId": 19,
+    "description": "Voeg de room, woksaus en peterselie toe.",
+    "number": 5
+  },
+  {
+    "id": 76,
+    "recipeId": 19,
+    "description": "Meng de pasta met de rest van de ingrediÃ«nten en schep het mengsel in de ovenschaal. Bestrooi het geheel met geraspte kaas. Bak de ovenschotel totdat de kaas goudbruin is gekleurd.",
+    "number": 6
+  },
+  {
+    "id": 77,
+    "recipeId": 20,
+    "description": "Verwarm de oven voor op 200 ºC. Snijd de knoflook fijn. Ontdooi de spinazie en laat deze zoveel mogelijk uitlekken in een zeef.",
+    "number": 1
+  },
+  {
+    "id": 78,
+    "recipeId": 20,
+    "description": "Bak het gehakt in 8 minuten rul. Bak de knoflook 1 minuut. Voeg de spinazie toe. Let hierbij op de verhouding van het gehakt en de spinazie! Voeg ook nog wat kaas toe.",
+    "number": 2
+  },
+  {
+    "id": 79,
+    "recipeId": 20,
+    "description": "Snijd de lasagnebladen in de breedte doormidden. Verdeel een beetje spinazie-gehaktmengsel over elk blad en rol op.",
+    "number": 3
+  },
+  {
+    "id": 80,
+    "recipeId": 20,
+    "description": "Leg de rolletjes in een ingevette ovenschaal. Schenk de slagroom eroverheen en bestrooi het met de kaas. Dek het af met aluminiumfolie. Bak de cannelloni 20 minuten in het midden van de oven. Verwijder het folie en bak nog 10 minuten tot de cannelloni goudbruin is.",
+    "number": 4
+  },
+  {
+    "id": 81,
+    "recipeId": 22,
+    "description": "Maak de kipfilets plat. Bestrooi ze met zout, peper en paprikapoeder. Wentel ze door de bloem.",
+    "number": 1
+  },
+  {
+    "id": 82,
+    "recipeId": 22,
+    "description": "Verhit boter in een koekenpan en bak de kipfilets ongeveer 5 minuten tot ze gaar zijn. Haal ze uit de pan.",
+    "number": 2
+  },
+  {
+    "id": 83,
+    "recipeId": 22,
+    "description": "Smelt ongeveer 8 eetlepels boter in de pan. Bak de peterselie en Provençaalse kruiden kort in de boter. Roer het citroensap erdoor en breng het mengsel aan de kook.",
+    "number": 3
+  },
+  {
+    "id": 84,
+    "recipeId": 22,
+    "description": "Schep wat van de citroenboter door de rijst. Leg de kipfilets in de rest van de citroenboter.",
+    "number": 4
+  },
+  {
+    "id": 85,
+    "recipeId": 21,
+    "description": "Verwarm de oven voor op 200 ºC.",
+    "number": 1
+  },
+  {
+    "id": 86,
+    "recipeId": 21,
+    "description": "Snijd de varkensfilet in 3 cm dikke schijven en druk de schijven plat. Verwarm wat boter in een pan. Braad de varkensvleesstukken aan elke kant 1 minuut. Breng ze op smaak met zout en peper. Leg ze in een ovenschaal.",
+    "number": 2
+  },
+  {
+    "id": 87,
+    "recipeId": 21,
+    "description": "Laat de perziken uitlekken, maar vang het sap op. Leg de perziken op de varkensvleesstukken in de ovenschaal.",
+    "number": 3
+  },
+  {
+    "id": 88,
+    "recipeId": 21,
+    "description": "Klop 3 eetlepels crème fraîche met het ei. Breng de rest van de crème fraîche aan de kook met 1/8 van het opgevangen perzikensap. Roer hier sausbindmiddel doorheen. Breng het op smaak met zout, peper en oregano. Roer er tot slot het eimengsel en 2/3 van de kaas door. Giet de saus over de perziken.",
+    "number": 4
+  },
+  {
+    "id": 89,
+    "recipeId": 21,
+    "description": "Strooi de rest van de kaas over de ovenschotel. Zet het geheel in het midden van de oven voor 15 tot 20 minuten.",
+    "number": 5
+  },
+  {
+    "id": 90,
+    "recipeId": 23,
+    "description": "Verwarm de oven voor op 190 ºC. Hak de chocoladerepen in kleine stukjes. Meng de bloem, bakpoeder en het zout in een kom.",
+    "number": 1
+  },
+  {
+    "id": 91,
+    "recipeId": 23,
+    "description": "Doe de boter, basterdsuiker, kristalsuiker en het vanille-extract in een kom en mix tot het mengsel romig is. Voeg daarna Ã©Ã©n voor Ã©Ã©n de eieren toe en mix na elk ei het mengsel goed door. Voeg vervolgens beetje bij beetje het bloemmengsel toe. Voeg als laatste de chocoladestukjes toe.",
+    "number": 2
+  },
+  {
+    "id": 92,
+    "recipeId": 23,
+    "description": "Vorm met 2 lepels platte koekjes op het bakpapier (op een rooster of bakplaat). Laat wel ruimte tussen de koekjes, want deze lopen nog een beetje uit.",
+    "number": 3
+  },
+  {
+    "id": 93,
+    "recipeId": 23,
+    "description": "Bak de koekjes 8 tot 10 minuten. Als ze klaar zijn, voelen ze heel zacht. Als ze afgekoeld zijn, worden ze harder, dus overschrijd de baktijd niet. (Tenzij je heel grote koekjes hebt.)",
+    "number": 4
+  },
+  {
+    "id": 94,
+    "recipeId": 24,
+    "description": "Splits het ei en gebruik alleen de eidooier. Meng vervolgens alle ingrediÃ«nten met een mixer met deeghaken tot het deeg een korrelige structuur heeft. Kneed de deegkruimels met koele handen tot een samenhangend deeg. Rol tot een bal en verpak in vershoudfolie. Laat het 30 minuten in de koelkast rusten.",
+    "number": 1
+  },
+  {
+    "id": 95,
+    "recipeId": 24,
+    "description": "Verwarm de oven voor op 175 ºC. Bestuif het werkblad met wat bloem en rol het deeg uit tot een lap van ca. 40 x 40 cm en 3-4 mm dik. Steek met behulp van uitsteekvormpjes of een glas koekjes uit het deeg. Kneed het resterende deeg tot een bal en rol opnieuw uit tot al het deeg gebruikt is. Leg de koekjes op enige afstand van elkaar op een met bakpapier beklede bakplaat.",
+    "number": 2
+  },
+  {
+    "id": 96,
+    "recipeId": 24,
+    "description": "Bak de koekjes in het midden van de oven in 15-20 minuten lichtbruin en gaar. Neem ze van de bakplaat en laat afkoelen, bij voorkeur op een rooster.",
+    "number": 3
+  },
+  {
+    "id": 97,
+    "recipeId": 25,
+    "description": "Verwarm de oven voor op 220 ºC.",
+    "number": 1
+  },
+  {
+    "id": 98,
+    "recipeId": 25,
+    "description": "Was de appels, snijd ze doormidden en snijd het klokhuis weg. Snijd de appels in zo dun mogelijke schijfjes.",
+    "number": 2
+  },
+  {
+    "id": 99,
+    "recipeId": 25,
+    "description": "Breng 1 liter water aan de kook samen met 3 eetlepels suiker en 2 eetlepels citroensap. Voeg de appelschijfjes toe zodra het water kookt. Kook de schijfjes 2 minuten totdat je ze makkelijk kunt buigen. Giet de schijfjes af in een vergiet en laat ze afkoelen. Laat de afgekoelde appelschijfjes op keukenpapier uitlekken.",
+    "number": 3
+  },
+  {
+    "id": 100,
+    "recipeId": 25,
+    "description": "Spreid het bladerdeeg uit op een met bloem bestrooide ondergrond. Snijd het deeg in repen van ca. 2 cm met een pizzames. Mix 4 eetlepels suiker met de kaneel en verspreid het mengsel zo gelijk mogelijk over het bladerdeeg. Je kunt wat mengsel overhouden. Druk het mengsel zacht aan met je vingers.",
+    "number": 4
+  },
+  {
+    "id": 101,
+    "recipeId": 25,
+    "description": "Verdeel de appelschijfjes over de deegstroken. Laat aan de korte kanten van de strook wat deeg vrij. Zorg ervoor dat de schijfjes elkaar een beetje overlappen en boven de lange kant van de strook uitsteken.",
+    "number": 5
+  },
+  {
+    "id": 102,
+    "recipeId": 25,
+    "description": "Rol de deegstroken met de appelschijfjes zo strak mogelijk op. Leg de roosjes op een bakplaat die bekleed is met bakpapier en bak ze ongeveer 25 minuten totdat ze lichtbruin zijn gekleurd. Bestrooi de roosjes naar wens met poedersuiker.",
+    "number": 6
+  },
+  {
+    "id": 103,
+    "recipeId": 26,
+    "description": "Verwarm de oven voor op 160 ºC. Vet de taarvorm in met wat boter. Smelt de boter in een steelpan. Maal de koekjes fijn en schenk de gesmolten boter erbij. Verdeel het mengsel gelijkmatig over de bodem van de taartvorm en druk aan met de bolle kant van een lepel.",
+    "number": 1
+  },
+  {
+    "id": 104,
+    "recipeId": 26,
+    "description": "Splits de eieren, doe de eiwitten in een vetvrije kom. De eidooiers worden niet gebruikt. Klop de eiwitten met een mixer stijf. Voeg al kloppend lepel voor lepel de poedersuiker toe. Blijf, als alle suiker is toegevoegd, doorkloppen tot het eiwit glanst en stijve pieken vormt (5 minuten). Spatel de maizena, het vanillearoma en de kokos voorzichtig door het eiwit.",
+    "number": 2
+  },
+  {
+    "id": 105,
+    "recipeId": 26,
+    "description": "Laat de chocolade smelten (au bain-marie).",
+    "number": 3
+  },
+  {
+    "id": 106,
+    "recipeId": 26,
+    "description": "Spatel door het eiwitmengsel. Schep dit mengsel gelijkmatig op de koekjesbodem en strijk glad. Bak ca. 25 minuten in het midden van de oven. Neem uit de oven en laat in 2 uur afkoelen in de vorm. Snijd de kokos-chocoladetaart in 12 repen.",
+    "number": 4
+  },
+  {
+    "id": 107,
+    "recipeId": 29,
+    "description": "Verwarm de oven voor op 160 ºC (boven- en onderwarmte). Vet de cakevorm in en bekleed met bakpapier.",
+    "number": 1
+  },
+  {
+    "id": 108,
+    "recipeId": 29,
+    "description": "Zeef in een grote kom de bloem, het bakpoeder, de kaneel en het zout. Mix de boter, basterd- en vanillesuiker in een keukenmachine tot een bijna glad mengsel. Voeg daarna tijdens het mixen Ã©Ã©n voor Ã©Ã©n de eieren en de crème fraîche toe. Schep door het bloemmengsel.",
+    "number": 2
+  },
+  {
+    "id": 109,
+    "recipeId": 29,
+    "description": "Pel en prak de banaan. Schep de bananenpuree door het beslag. Verdeel het beslag over de cakevorm en bak het bananenbrood goudbruin en gaar. Gebruik de 'gering stoom'-stand van de oven. Controleer na 50 minuten op gaarheid met een satÃ©prikker. Als deze er schoon uitkomt, is het bananenbrood gaar. Laat het bananenbrood eerst 30 minuten afkoelen in de vorm en daarna 60 minuten op een rooster.",
+    "number": 3
+  },
+  {
+    "id": 110,
+    "recipeId": 30,
+    "description": "Haal het goulashvlees een halfuur van tevoren uit de koelkast. Snijd het vlees in blokken van 3 x 3 cm.",
+    "number": 1
+  },
+  {
+    "id": 111,
+    "recipeId": 30,
+    "description": "Pel de sjalotten en halveer ze. Erg grote sjalotten kun je in kwarten snijden. Verhit 1 eetlepel boter in een braadpan en bak de sjalotten goudgeel. Haal ze uit de pan en zet ze opzij.",
+    "number": 2
+  },
+  {
+    "id": 112,
+    "recipeId": 30,
+    "description": "Verhit weer 1 eetlepel boter in een braadpan. Schroei het vlees op hoge temperatuur dicht. Let op: het gaat beter als je het in porties bakt! Draai het vlees pas na 1 minuut om, zodat er niet teveel hitte van de bodem verloren gaat. ",
+    "number": 3
+  },
+  {
+    "id": 113,
+    "recipeId": 30,
+    "description": "Voeg in de braadpan het vlees, de sjalotten en 40 g tomatenpuree samen. Roer het goed door.",
+    "number": 4
+  },
+  {
+    "id": 114,
+    "recipeId": 30,
+    "description": "Blus af met 200 ml droge rode wijn. Laat de rode wijn 2/3 wegkoken. Reduceer het geheel dus tot 1/3. ",
+    "number": 5
+  },
+  {
+    "id": 115,
+    "recipeId": 30,
+    "description": "Pers de knoflook erbij als de rode wijn voor 2/3 is weggekookt. Voeg 2 theelepels paprikapoeder, 1/2 theelepel oregano en 1 mespuntje cayennepeper toe. Voeg eventueel 1-2 theelepels citroenrasp toe. Roer het door.",
+    "number": 6
+  },
+  {
+    "id": 116,
+    "recipeId": 30,
+    "description": "Blus het vlees met 400 ml runderbouillon. Laat het met de deksel erop ongever 1,5 uur bij matige temperatuur stoven. Kijk na 1 uur of het niet droogkookt. Als het nog vloeibaar genoeg is, kun je de deksel van de pan afhalen.",
+    "number": 7
+  },
+  {
+    "id": 117,
+    "recipeId": 31,
+    "description": "Doe alles tegelijkertijd in een kom en meng het tot het deeg stevig is en donkerbruin kleurt. Het laatste stukje kneed je met de hand tot een bal. Wikkel het deeg in folie en laat het minstens 2 uur in de koelkast rusten. Je kunt het deeg ook al een dag van tevoren maken.",
+    "number": 1
+  },
+  {
+    "id": 118,
+    "recipeId": 31,
+    "description": "Verwarm de oven voor op 250 ºC (boven- en onderwarmte).",
+    "number": 2
+  },
+  {
+    "id": 119,
+    "recipeId": 31,
+    "description": "Smeer het plankje in met olie. Bestuif hem met bloem. Klop het bloem er weer af, zodat het niet in de kieren gaat zitten. Dit gaat namelijk ten koste van de print in het speculaas.",
+    "number": 3
+  },
+  {
+    "id": 120,
+    "recipeId": 31,
+    "description": "Neem een bolletje van het deeg en vorm dit al iets naar de vorm in de plank. Druk het deeg goed aan in de vorm. Ga hierbij over de randjes heen. Met een goed scherp mes snijd je het overtollige deeg weg.",
+    "number": 4
+  },
+  {
+    "id": 121,
+    "recipeId": 31,
+    "description": "Sla met de rand van het plankje op het aanrecht tot de randjes los komen te zitten. Haal voorzichtig het figuur los. Houd hierbij het plankje zo horizontaal mogelijk en dicht bij het aanrecht of je hand. Let op: Als het deeg te warm wordt, komt het lastiger uit de vorm. Leg het in dat geval weer even terug in de koelkast zodat het wat steviger wordt.",
+    "number": 5
+  },
+  {
+    "id": 122,
+    "recipeId": 31,
+    "description": "Leg de figuren op bakpapier op de bakplaat of het rooster. Bak ze voor 14-18 minuten in de oven.",
+    "number": 6
+  },
+  {
+    "id": 123,
+    "recipeId": 27,
+    "description": "Vermeng 200 g kristalbloem, 1 snufje zout, 1 eetlepel olie en 100 ml lauwwarm water tot een zeer glad deeg. Dit duurt ongeveer 10 minuten.",
+    "number": 1
+  },
+  {
+    "id": 124,
+    "recipeId": 27,
+    "description": "Bestrijk het deeg rondom met olie en leg het op een bord.",
+    "number": 2
+  },
+  {
+    "id": 125,
+    "recipeId": 27,
+    "description": "Giet kokend water in een keramische schaal en laat het kort staan. Haal het water uit de schaal en zet de schaal op de kop over het deeg. Laat het deeg 30 minuten staan.",
+    "number": 3
+  },
+  {
+    "id": 126,
+    "recipeId": 27,
+    "description": "Doe ondertussen het citroensap in een grote kom. Week de rozijnen in rum. Was en schil de appels en verdeel ze in kwarten. De kwarten dan in 1 mm dikke schijven snijden. Meng de appelschijven met het citroensap, zodat ze niet bruin worden.",
+    "number": 4
+  },
+  {
+    "id": 127,
+    "recipeId": 27,
+    "description": "Smelt 50 g boter in een pan en bak het paneermeel langzaam (!) bruin. Wees voorzichtig, want het brandt snel aan. Vermeng het gebruinde paneermeel met suiker en kaneel. Meng het met de appelschijven. Voeg de rozijnen toe.",
+    "number": 5
+  },
+  {
+    "id": 128,
+    "recipeId": 27,
+    "description": "Leg een grote, schone theedoek op het aanrecht en bestuif deze met bloem. Doe eventueel je ringen af; deze kunnen gaten in het deeg veroorzaken.",
+    "number": 6
+  },
+  {
+    "id": 129,
+    "recipeId": 27,
+    "description": "Druk het deeg plat op de theedoek en bestuif het met bloem. Trek het voorzichtig vanuit het midden uit elkaar, totdat het zo groot is als een pizzabord. Druk nu met de hand het deeg nog voorzichtig beetje bij beetje uit elkaar. Zodra het deeg groter is dan de theedoek, is het klaar. Je kunt er een krant doorheen lezen. Snijd de dikke randen met een mes weg.",
+    "number": 7
+  },
+  {
+    "id": 130,
+    "recipeId": 27,
+    "description": "Smelt 100 g boter. Bestrijk het Strudeldeeg met de gesmolten boter.",
+    "number": 8
+  },
+  {
+    "id": 131,
+    "recipeId": 27,
+    "description": "Verdeel de appelvulling over het onderste derde deel van het deeg. Vouw de zijranden van het deeg eroverheen.",
+    "number": 9
+  },
+  {
+    "id": 132,
+    "recipeId": 27,
+    "description": "Rol met behulp van de theedoek de Strudel strak op. Draai de sluitzijde naar de onderkant. Leg de Strudel op een met bakpapier beklede bakplaat.",
+    "number": 10
+  },
+  {
+    "id": 133,
+    "recipeId": 27,
+    "description": "Bestrijk de Strudel met gesmolten boter. Verwarm de oven op 220 ºC (boven- en onderwarmte). Bak de Strudel in 40-45 minuten krokant.",
+    "number": 11
+  },
+  {
+    "id": 134,
+    "recipeId": 27,
+    "description": "Bestrooi de Strudel met poedersuiker en serveer met ijs of vanillesaus.",
+    "number": 12
+  },
+  {
+    "id": 135,
+    "recipeId": 28,
+    "description": "Vermeng melk en slagroom. Doe 2/3 daarvan in een pan.",
+    "number": 1
+  },
+  {
+    "id": 136,
+    "recipeId": 28,
+    "description": "Snijd de vanillestokjes via de lange kant doormidden. Schraap met een mes de vanille uit het stokje. Voeg de vanille, de stokhelften en de suiker toe aan de melk. Verhit de melk langzaam.",
+    "number": 2
+  },
+  {
+    "id": 137,
+    "recipeId": 28,
+    "description": "Vermeng de maizena en het eigeel met de rest van de melk.",
+    "number": 3
+  },
+  {
+    "id": 138,
+    "recipeId": 28,
+    "description": "Voeg het maizenamengsel toe aan de vanillemelk zodra de laatste kookt. Roer het met de garde krachtig door.",
+    "number": 4
+  },
+  {
+    "id": 139,
+    "recipeId": 28,
+    "description": "Haal de pan van het vuur en haal de vanillestokjes eruit. Mix eventueel de saus met een pureerstaaf, zodat de saus schuimig wordt.",
+    "number": 5
+  },
+  {
+    "id": 140,
+    "recipeId": 32,
+    "description": "Verwarm de oven voor op 175 ºC (boven- en onderwarmte). Vet een ronde bakvorm met een diameter van ongeveer 25 cm in.",
+    "number": 1
+  },
+  {
+    "id": 141,
+    "recipeId": 32,
+    "description": "Klop de boter met de poedersuiker en 1 snufje zout schuimig. Meng de eieren er Ã©Ã©n voor Ã©Ã©n bij.",
+    "number": 2
+  },
+  {
+    "id": 142,
+    "recipeId": 32,
+    "description": "Vermeng de bloem met het bakpoeder, de vanillesuiker en de citroenrasp. Roer dit kort door.",
+    "number": 3
+  },
+  {
+    "id": 143,
+    "recipeId": 32,
+    "description": "Giet de massa in de bakvorm en strijk het glad.",
+    "number": 4
+  },
+  {
+    "id": 144,
+    "recipeId": 32,
+    "description": "Ontpit de kersen en verdeel ze over de taart. Bak de taart in de oven in ca. 30 minuten goudgeel. Laat de taart afkoelen. Bestrooi met poedersuiker.",
+    "number": 5
+  },
+  {
+    "id": 145,
+    "recipeId": 33,
+    "description": "Verwarm de oven voor op 175 ºC (boven- en onderwarmte).",
+    "number": 1
+  },
+  {
+    "id": 146,
+    "recipeId": 33,
+    "description": "Klop de boter met de poedersuiker en vanillesuiker wit-schuimig. Voeg daarna Ã©Ã©n voor Ã©Ã©n de eidooiers toe.",
+    "number": 2
+  },
+  {
+    "id": 147,
+    "recipeId": 33,
+    "description": "Meng in een tweede kom de eiwitten met suiker tot een crèmige schuim.",
+    "number": 3
+  },
+  {
+    "id": 148,
+    "recipeId": 33,
+    "description": "Vermeng in een derde kom de maizena, de bloem en het bakpoeder. Meng dit en het eiwitmengsel afwisselend door de botermassa.",
+    "number": 4
+  },
+  {
+    "id": 149,
+    "recipeId": 33,
+    "description": "Voeg op het einde de hagelslag toe. Giet het deeg in een ingevette tulbandvorm. Bak het 50-60 minuten in de oven.",
+    "number": 5
+  },
+  {
+    "id": 150,
+    "recipeId": 33,
+    "description": "Voor het glazuur: smelt de chocolade en de boter op middelhoge temperatuur. Giet en strijk het over de taart.",
+    "number": 6
+  },
+  {
+    "id": 151,
+    "recipeId": 34,
+    "description": "Strooi een beetje zout in een kom. Zeef 275 gram bloem erboven. Maak een kuiltje in het midden van de bloem en strooi de gist erin. Voeg 50 gram boter, 25 gram suiker en het ei toe. Schenk de melk erbij en kneed met de mixer, in de keukenmachine of met de hand tot een soepel deeg. Voeg eventueel extra bloem toe als het deeg plakt. Vorm er een bal van. Laat het gistdeeg afgedekt op kamertemperatuur 1 uur rijzen.",
+    "number": 1
+  },
+  {
+    "id": 152,
+    "recipeId": 34,
+    "description": "Schil de appels. Snijd de appels en abrikozen in stukjes. Kook het fruit met 150 gram suiker en 50 ml water in 15 minuten tot een dikke compote. Laat deze vlaaivulling afkoelen.",
+    "number": 2
+  },
+  {
+    "id": 153,
+    "recipeId": 34,
+    "description": "Kneed met de mixer of in de keukenmachine van de resterende 100 gram bloem, 100 gram suiker en 75 gram boter een samenhangend deeg. Leg het deeg in vershoudfolie verpakt in de koelkast.",
+    "number": 3
+  },
+  {
+    "id": 154,
+    "recipeId": 34,
+    "description": "Verwarm de oven voor tot 200 ºC (boven- en onderwarmte). Rol het gistdeeg uit tot een ronde lap van 28-30 cm doorsnede, die dus ruim over de vorm van 20 cm doorsnede hangt. Leg het deeg in de vorm en druk het in de hoek goed aan. Laat het deeg nog een paar minuten rusten en snijd dan het overtollige deeg langs de rand weg.",
+    "number": 4
+  },
+  {
+    "id": 155,
+    "recipeId": 34,
+    "description": "Schep de vulling op het deeg. Verkruimel het kruimeldeeg tussen de vingers boven de vlaai. Bak de vlaai in de voorverwarmde oven in ongeveer 30 minuten gaar.",
+    "number": 5
+  },
+  {
+    "id": 156,
+    "recipeId": 35,
+    "description": "Verwarm de oven voor tot 200 ºC (boven- en onderwarmte). Leg een vel bakpapier op de bodem van een springvorm van 24 cm diameter. Sluit de springvorm. Klop in de keukenmachine of met de mixer met deeghaken de boter met 200 gram suiker, de vanillesuiker en wat zout zacht. Meng het ei erdoor. Voeg in 2-3 porties het bakmeel toe en kneed verder tot een kruimelig maar goed gemengd deeg. Druk tweederde van het deeg uit op de bodem van de springvorm.",
+    "number": 1
+  },
+  {
+    "id": 157,
+    "recipeId": 35,
+    "description": "Schil de appels en snijd ze in schijfjes. Meng in een kom de appel met de bosbessen, 25 gram suiker en de kaneel. Verdeel het mengsel over de deegbodem. Verkruimel de rest van het deeg tussen de vingers boven de taart.",
+    "number": 2
+  },
+  {
+    "id": 158,
+    "recipeId": 35,
+    "description": "Bak de taart in de voorverwarmde oven in ongeveer 45 minuten goudbruin en gaar. Laat de taart afkoelen en verwijder dan de vorm.",
+    "number": 3
+  },
+  {
+    "id": 159,
+    "recipeId": 36,
+    "description": "Leg de aardappels in een ovenschaal. Snijd ze Ã©Ã©n keer in de lengte in. Snijd ze daarna over de breedte meerdere keren in. Let op: snijd ze niet helemaal door!",
+    "number": 2
+  },
+  {
+    "id": 160,
+    "recipeId": 36,
+    "description": "Bestrijk de aardappels met vloeibare bakboter. Breng op smaak met peper en zout. Zet de schaal met aardappels in de oven voor 35 minuten.",
+    "number": 3
+  },
+  {
+    "id": 161,
+    "recipeId": 36,
+    "description": "Verwarm de oven voor op 200 ºC (hetelucht).",
+    "number": 1
+  },
+  {
+    "id": 162,
+    "recipeId": 36,
+    "description": "Bak na 25 minuten de baconreepjes knapperig in een pan. Dit duurt ongeveer 10 minuten.",
+    "number": 4
+  },
+  {
+    "id": 163,
+    "recipeId": 36,
+    "description": "Haal de aardappels uit de oven. Leg ze op de borden. Bestrijk ze middels een eetlepel met zure room. Verspreid de baconreepjes over de aardappels. Bestrooi met cheddar en een snufje peterselie.",
+    "number": 5
+  },
+  {
+    "id": 164,
+    "recipeId": 36,
+    "description": "Genieten maar!",
+    "number": 6
+  },
+  {
+    "id": 165,
+    "recipeId": 1,
+    "description": "Snijd ondertussen de broccoli in roosjes.",
+    "number": 3
+  },
+  {
+    "id": 166,
+    "recipeId": 37,
+    "description": "Maak de groente- en runderbouillon volgens de aanwijzingen op de verpakking. Je hebt maar 150 ml van elk nodig, de rest kun je weggieten.",
+    "number": 1
+  },
+  {
+    "id": 167,
+    "recipeId": 37,
+    "description": "Verwarm boter in een koekenpan. Bak hierin de gehaktballetjes bruin. Dit kost op matige temperatuur ca. 15 minuten.",
+    "number": 2
+  },
+  {
+    "id": 168,
+    "recipeId": 37,
+    "description": "Smelt ondertussen de boter in een steelpan. Voeg de bloem toe terwijl je met een houten lepel roert, zodat je kruimels krijgt.",
+    "number": 3
+  },
+  {
+    "id": 169,
+    "recipeId": 37,
+    "description": "Voeg 150 ml runderbouillon en 150 ml groentebouillon toe en blijf goed roeren, zodat de kruimels oplossen.",
+    "number": 4
+  },
+  {
+    "id": 170,
+    "recipeId": 37,
+    "description": "Voeg daarna de slagroom, sojasaus en mosterd toe. Laat het geheel zachtjes koken, zodat de saus dikker wordt.",
+    "number": 5
+  }
+]
