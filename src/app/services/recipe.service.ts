@@ -9,9 +9,9 @@ import { RecipeStep } from '../models/recipe-step';
   providedIn: 'root'
 })
 export class RecipeService {
-  private recipesUrl = "assets/recipes.json";
-  private ingredientsUrl = "assets/ingredients.json";
-  private recipeStepsUrl = "assets/recipe_steps.json";
+  private recipesUrl = "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/recipes.json";
+  private ingredientsUrl = "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/ingredients.json";
+  private recipeStepsUrl = "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/recipe_steps.json";
 
   constructor(private http: HttpClient) { }
 
