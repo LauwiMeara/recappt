@@ -7,7 +7,7 @@ import { map, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class RecipeService {
-  private recipesUrl = "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/recipes.json";
+  private recipesUrl = "assets/recipes.json";
 
   constructor(private http: HttpClient) { }
 
