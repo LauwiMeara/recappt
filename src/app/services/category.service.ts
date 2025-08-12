@@ -8,7 +8,7 @@ import { Category } from '../models/category';
   providedIn: 'root'
 })
 export class CategoryService {
-  private categoriesUrl = "assets/categories.json";
+  private categoriesUrl = "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/categories.json";
 
   constructor(private http: HttpClient) { }
 
