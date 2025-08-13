@@ -2334,6 +2334,70 @@
         "unitOfMeasurement" : "g",
         "name" : "rucola",
         "description" : ""
+    },
+    {
+        "id" : 313,
+        "recipeId" : 40,
+        "amount" : 2.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "paprikapoeder",
+        "description" : ""
+    },
+    {
+        "id" : 314,
+        "recipeId" : 40,
+        "amount" : 2.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "komijn",
+        "description" : "gemalen"
+    },
+    {
+        "id" : 315,
+        "recipeId" : 40,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "chilipoeder",
+        "description" : ""
+    },
+    {
+        "id" : 316,
+        "recipeId" : 40,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "knoflookpoeder",
+        "description" : ""
+    },
+    {
+        "id" : 317,
+        "recipeId" : 40,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "zout",
+        "description" : ""
+    },
+    {
+        "id" : 318,
+        "recipeId" : 40,
+        "amount" : 0.5,
+        "unitOfMeasurement" : "tl",
+        "name" : "zwarte peper",
+        "description" : ""
+    },
+    {
+        "id" : 319,
+        "recipeId" : 40,
+        "amount" : 0.5,
+        "unitOfMeasurement" : "tl",
+        "name" : "oregano",
+        "description" : "gedroogd"
+    },
+    {
+        "id" : 320,
+        "recipeId" : 40,
+        "amount" : 0.5,
+        "unitOfMeasurement" : "tl",
+        "name" : "koriander",
+        "description" : "gemalen"
     }
 ]
     

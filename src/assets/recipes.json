@@ -85,7 +85,7 @@
       "timeWaitInMinutes": 0,
       "timeOvenInMinutes": 25,
       "comment": "",
-      "imageName": "",
+      "imageName": "6.PNG",
       "categories": [
         {
           "id": 4
@@ -211,7 +211,7 @@
       "timeWaitInMinutes": 0,
       "timeOvenInMinutes": 0,
       "comment": "",
-      "imageName": "",
+      "imageName": "14.jpg",
       "categories": [
         {
           "id": 1
@@ -650,7 +650,25 @@
       "imageName": "39.jpeg",
       "categories": [
         {
-          "id": 5
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "createdAt": "2025-08-13 19:42:00",
+      "title": "Burritokruiden",
+      "description": "",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 5,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "40.jpg",
+      "categories": [
+        {
+          "id": 4
         }
       ]
     }

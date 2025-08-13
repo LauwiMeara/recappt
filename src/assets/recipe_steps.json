@@ -1030,5 +1030,11 @@
     "recipeId": 39,
     "description": "Giet de pasta af (vang wat kookvocht op) en meng de pesto en rucola erdoor, met 2 el pastawater (per 4 personen). Serveer de pasta in diepe borden en verdeel de groente en mozzarella erover.",
     "number": 5
+  },
+  {
+    "id": 186,
+    "recipeId": 40,
+    "description": "Mix alles door elkaar. Makkelijker kan niet!",
+    "number": 1
   }
 ]
