@@ -112,46 +112,6 @@
         "description" : ""
     },
     {
-        "id" : 15,
-        "recipeId" : 3,
-        "amount" : 75.0,
-        "unitOfMeasurement" : "g",
-        "name" : "veldsla",
-        "description" : ""
-    },
-    {
-        "id" : 16,
-        "recipeId" : 3,
-        "amount" : 150.0,
-        "unitOfMeasurement" : "g",
-        "name" : "kersen",
-        "description" : ""
-    },
-    {
-        "id" : 17,
-        "recipeId" : 3,
-        "amount" : 125.0,
-        "unitOfMeasurement" : "g",
-        "name" : "mozzarella",
-        "description" : ""
-    },
-    {
-        "id" : 18,
-        "recipeId" : 3,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "saladecroutons",
-        "description" : ""
-    },
-    {
-        "id" : 19,
-        "recipeId" : 3,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "olijfolie",
-        "description" : ""
-    },
-    {
         "id" : 20,
         "recipeId" : 4,
         "amount" : 200.0,
@@ -656,46 +616,6 @@
         "description" : ""
     },
     {
-        "id" : 83,
-        "recipeId" : 8,
-        "amount" : 0.25,
-        "unitOfMeasurement" : "zakje",
-        "name" : "gist",
-        "description" : ""
-    },
-    {
-        "id" : 84,
-        "recipeId" : 8,
-        "amount" : 0.5,
-        "unitOfMeasurement" : "tl",
-        "name" : "suiker",
-        "description" : ""
-    },
-    {
-        "id" : 85,
-        "recipeId" : 8,
-        "amount" : 125.0,
-        "unitOfMeasurement" : "g",
-        "name" : "bloem",
-        "description" : ""
-    },
-    {
-        "id" : 86,
-        "recipeId" : 8,
-        "amount" : 1.5,
-        "unitOfMeasurement" : "el",
-        "name" : "olie",
-        "description" : ""
-    },
-    {
-        "id" : 87,
-        "recipeId" : 8,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "pizzabeleg",
-        "description" : ""
-    },
-    {
         "id" : 88,
         "recipeId" : 1,
         "amount" : 0.0,
@@ -826,57 +746,57 @@
     {
         "id" : 104,
         "recipeId" : 16,
-        "amount" : 125.0,
-        "unitOfMeasurement" : "ml",
-        "name" : "slagroom",
+        "amount" : 150.0,
+        "unitOfMeasurement" : "g",
+        "name" : "spaghetti",
         "description" : ""
     },
     {
         "id" : 105,
         "recipeId" : 16,
-        "amount" : 2.0,
+        "amount" : 4.0,
         "unitOfMeasurement" : "",
-        "name" : "eieren",
+        "name" : "eidooiers",
         "description" : ""
     },
     {
         "id" : 106,
         "recipeId" : 16,
-        "amount" : 75.0,
-        "unitOfMeasurement" : "g",
-        "name" : "geraspte kaas",
+        "amount" : 1.0,
+        "unitOfMeasurement" : "",
+        "name" : "ei",
         "description" : ""
     },
     {
         "id" : 107,
         "recipeId" : 16,
-        "amount" : 125.0,
+        "amount" : 75.0,
         "unitOfMeasurement" : "g",
-        "name" : "spekreepjes",
-        "description" : ""
+        "name" : "Parmezaanse kaas",
+        "description" : "geraspt"
     },
     {
         "id" : 108,
         "recipeId" : 16,
-        "amount" : 2.0,
-        "unitOfMeasurement" : "teentjes",
-        "name" : "knoflook",
+        "amount" : 150.0,
+        "unitOfMeasurement" : "g",
+        "name" : "pancetta",
         "description" : ""
     },
     {
         "id" : 109,
         "recipeId" : 16,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "peterselie",
+        "amount" : 1.0,
+        "unitOfMeasurement" : "teentje",
+        "name" : "knoflook",
         "description" : ""
     },
     {
         "id" : 110,
         "recipeId" : 16,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "zout",
+        "amount" : 2.0,
+        "unitOfMeasurement" : "el",
+        "name" : "peterselie",
         "description" : ""
     },
     {
@@ -884,7 +804,7 @@
         "recipeId" : 16,
         "amount" : 0.0,
         "unitOfMeasurement" : "",
-        "name" : "peper",
+        "name" : "zout",
         "description" : ""
     },
     {
@@ -892,7 +812,7 @@
         "recipeId" : 16,
         "amount" : 0.0,
         "unitOfMeasurement" : "",
-        "name" : "pasta",
+        "name" : "peper",
         "description" : ""
     },
     {
@@ -1141,86 +1061,6 @@
         "amount" : 125.0,
         "unitOfMeasurement" : "ml",
         "name" : "slagroom",
-        "description" : ""
-    },
-    {
-        "id" : 144,
-        "recipeId" : 22,
-        "amount" : 350.0,
-        "unitOfMeasurement" : "g",
-        "name" : "kipfilet",
-        "description" : ""
-    },
-    {
-        "id" : 145,
-        "recipeId" : 22,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "bloem",
-        "description" : ""
-    },
-    {
-        "id" : 146,
-        "recipeId" : 22,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "zout",
-        "description" : ""
-    },
-    {
-        "id" : 147,
-        "recipeId" : 22,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "peper",
-        "description" : ""
-    },
-    {
-        "id" : 148,
-        "recipeId" : 22,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "paprikapoeder",
-        "description" : ""
-    },
-    {
-        "id" : 149,
-        "recipeId" : 22,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "peterselie",
-        "description" : ""
-    },
-    {
-        "id" : 150,
-        "recipeId" : 22,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "Provençaalse kruiden",
-        "description" : ""
-    },
-    {
-        "id" : 151,
-        "recipeId" : 22,
-        "amount" : 4.0,
-        "unitOfMeasurement" : "el",
-        "name" : "citroensap",
-        "description" : ""
-    },
-    {
-        "id" : 152,
-        "recipeId" : 22,
-        "amount" : 8.0,
-        "unitOfMeasurement" : "el",
-        "name" : "boter",
-        "description" : ""
-    },
-    {
-        "id" : 153,
-        "recipeId" : 22,
-        "amount" : 0.0,
-        "unitOfMeasurement" : "",
-        "name" : "rijst",
         "description" : ""
     },
     {
