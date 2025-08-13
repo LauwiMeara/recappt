@@ -1000,5 +1000,35 @@
     "recipeId": 38,
     "description": "Voeg de kippenbouillon toe en laat het twee minuten doorkoken. Voeg daarna de crème fraîche toe en verhit het kort. Klaar!",
     "number": 6
+  },
+  {
+    "id": 181,
+    "recipeId": 39,
+    "description": "Snijd de rode ui in dunne ringen, snijd de knoflook fijn. Snijd de courgette in blokjes van 1 cm.",
+    "number": 1
+  },
+  {
+    "id": 182,
+    "recipeId": 39,
+    "description": "Verhit de olie in een grote hapjespan op middelhoog vuur en bak de ui en knoflook 3 min. Voeg de courgette toe en bak 5 min. tot goudbruin en gaar.",
+    "number": 2
+  },
+  {
+    "id": 183,
+    "recipeId": 39,
+    "description": "Kook de tagliatelle gaar volgens de aanwijzingen op de verpakking.",
+    "number": 3
+  },
+  {
+    "id": 184,
+    "recipeId": 39,
+    "description": "Snijd de tomaatjes doormidden. Voeg ze toe aan de courgette en ui. Breng op smaak met peper en eventueel zout. Haal van het vuur. Snijd de mozzarella in blokjes.",
+    "number": 4
+  },
+  {
+    "id": 185,
+    "recipeId": 39,
+    "description": "Giet de pasta af (vang wat kookvocht op) en meng de pesto en rucola erdoor, met 2 el pastawater (per 4 personen). Serveer de pasta in diepe borden en verdeel de groente en mozzarella erover.",
+    "number": 5
   }
 ]

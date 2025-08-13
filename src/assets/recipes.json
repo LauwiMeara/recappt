@@ -635,5 +635,23 @@
           "id": 6
         }
       ]
+    },
+    {
+      "id": "39",
+      "createdAt": "2025-08-13 18:51:00",
+      "title": "Vegetarische tagliatelle met pesto",
+      "description": "Pasta pesto is altijd een goed idee, toch?",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Lekker met Parmezaanse kaas.",
+      "imageName": "39.jpeg",
+      "categories": [
+        {
+          "id": 5
+        }
+      ]
     }
   ]

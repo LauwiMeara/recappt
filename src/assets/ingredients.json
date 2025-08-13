@@ -59,7 +59,7 @@
         "id" : 8,
         "recipeId" : 2,
         "amount" : 0.5,
-        "unitOfMeasurement" : "teen",
+        "unitOfMeasurement" : "teentje",
         "name" : "knoflook",
         "description" : "geperst"
     },
@@ -92,7 +92,7 @@
         "recipeId" : 2,
         "amount" : 400.0,
         "unitOfMeasurement" : "g",
-        "name" : "mozzarell",
+        "name" : "mozzarella",
         "description" : "in plakken"
     },
     {
@@ -2262,6 +2262,78 @@
         "unitOfMeasurement" : "",
         "name" : "groenten",
         "description" : "bijvoorbeeld paksoi"
+    },
+    {
+        "id" : 304,
+        "recipeId" : 39,
+        "amount" : 2.0,
+        "unitOfMeasurement" : "",
+        "name" : "rode uien",
+        "description" : ""
+    },
+    {
+        "id" : 305,
+        "recipeId" : 39,
+        "amount" : 2.0,
+        "unitOfMeasurement" : "teentjes",
+        "name" : "knoflook",
+        "description" : ""
+    },
+    {
+        "id" : 306,
+        "recipeId" : 39,
+        "amount" : 300.0,
+        "unitOfMeasurement" : "g",
+        "name" : "verse tagliatelle",
+        "description" : ""
+    },
+    {
+        "id" : 307,
+        "recipeId" : 39,
+        "amount" : 0.0,
+        "unitOfMeasurement" : "",
+        "name" : "olijfolie",
+        "description" : ""
+    },
+    {
+        "id" : 308,
+        "recipeId" : 39,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "",
+        "name" : "courgette",
+        "description" : ""
+    },
+    {
+        "id" : 309,
+        "recipeId" : 39,
+        "amount" : 250.0,
+        "unitOfMeasurement" : "g",
+        "name" : "cherrytomaten",
+        "description" : ""
+    },
+    {
+        "id" : 310,
+        "recipeId" : 39,
+        "amount" : 125.0,
+        "unitOfMeasurement" : "g",
+        "name" : "mozzarella",
+        "description" : ""
+    },
+    {
+        "id" : 311,
+        "recipeId" : 39,
+        "amount" : 85.0,
+        "unitOfMeasurement" : "g",
+        "name" : "groene pesto",
+        "description" : ""
+    },
+    {
+        "id" : 312,
+        "recipeId" : 39,
+        "amount" : 60.0,
+        "unitOfMeasurement" : "g",
+        "name" : "rucola",
+        "description" : ""
     }
 ]
     
