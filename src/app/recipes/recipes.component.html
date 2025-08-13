@@ -1,13 +1,13 @@
-<div class="sticky top-0 py-8 px-5 bg-gradient-recappt-gray-to-transparent">
-  <ul class="grid grid-cols-9 font-header text-3xl select-none divide-x divide-recappt-gray">
-    <li (click)="filter(0)" [ngClass]="{ 'bg-gradient-amber-300': filteredCategories.length == 0  }" class="col-span-2 items-center text-center bg-gradient-amber-100 p-2 cursor-pointer">
+<div class="sticky top-0 py-8 px-5 bg-gradient-recappt-dark-gray-to-transparent">
+   <ul class="grid grid-cols-9 font-header text-3xl text-recappt-white select-none divide-x divide-recappt-dark-gray shadow-lg">
+    <li (click)="filter(0)" [ngClass]="{ 'bg-gradient-recappt-gray': filteredCategories.length == 0  }" class="col-span-2 items-center text-center bg-gradient-recappt-dark-gray rounded-l-lg p-2 cursor-pointer">
       <div><fa-icon icon="utensils"></fa-icon></div>
       <div>
       <span>Alle recepten</span>
       <span class="font-body text-xl font-light"> [{{recipes.length}}]</span>
     </div>
     </li>
-    <li *ngFor="let category of categories" (click)="filter(category.id)" [ngClass]="{ 'bg-gradient-amber-300': filteredCategories.includes(category.id), 'opacity-25 pointer-events-none': hasNoRecipes(category.id)}" class="items-center text-center bg-gradient-amber-100 p-2 cursor-pointer">
+    <li *ngFor="let category of categories" (click)="filter(category.id)" [ngClass]="{ 'bg-gradient-recappt-gray': filteredCategories.includes(category.id), 'opacity-25 pointer-events-none': hasNoRecipes(category.id)}" class="items-center text-center bg-gradient-recappt-dark-gray last:rounded-r-lg p-2 cursor-pointer">
       <div><fa-icon [icon]=category.iconName></fa-icon></div>
       <div>
       <span>{{category.name}}</span>
@@ -18,7 +18,7 @@
 </div>
 
 <ul class="recipes grid grid-cols-5">
-  <li routerLink="{{recipe.id}}" *ngFor="let recipe of getFilteredRecipes()" class="bg-recappt-white aspect-square m-5 rounded-lg divide-y divide-recappt-gray cursor-pointer">
+  <li routerLink="{{recipe.id}}" *ngFor="let recipe of getFilteredRecipes()" class="bg-recappt-white aspect-square m-5 rounded-lg divide-y divide-recappt-gray shadow-lg cursor-pointer">
     <div [ngStyle]="{'background-image': 'url(' + getImageUrl(recipe) + ')'}" class="flex bg-cover bg-center w-full h-3/4 rounded-t-lg"></div>
     <div class="flex items-center justify-center text-center bg-gradient-recappt-white p-2 h-1/4 rounded-b-lg font-semibold">{{recipe.title}}</div>
   </li>

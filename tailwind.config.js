@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'recappt-gray': '#778899',
+        'recappt-gray': '#437272',
         'recappt-dark-gray': '#2f4f4f',
         'recappt-white': '#f5f5f5',
       },
@@ -19,9 +19,9 @@ module.exports = {
       },
       backgroundImage: (theme) => ({
         'gradient-recappt-white': 'linear-gradient(to bottom right, #f5f5f5, #f1f5f9, #cbd5e1)',
-        'gradient-amber-100': 'linear-gradient(to bottom right, #fffbeb, #fef3c7)',
-        'gradient-amber-300': 'linear-gradient(to bottom right, #fde68a, #fcd34d)',
-        'gradient-recappt-gray-to-transparent': 'linear-gradient(to bottom, rgba(119,136,153, 1), rgba(119,136,153, 1), rgba(119,136,153, 1), rgba(119,136,153, 1), rgba(0,0,0,0) 100%)'
+        'gradient-recappt-dark-gray': 'linear-gradient(to bottom right, #396060, #2f4f4f)',
+        'gradient-recappt-gray': 'linear-gradient(to bottom right, #5fa0a0, #437272)',
+        'gradient-recappt-dark-gray-to-transparent': 'linear-gradient(to bottom, rgba(47, 79, 79, 1), rgba(47, 79, 79, 1), rgba(47, 79, 79, 1), rgba(47, 79, 79, 1), rgba(0,0,0,0) 100%)'
       }),
     },
   },
