@@ -964,5 +964,41 @@
     "recipeId": 16,
     "description": "Breng op smaak met zwarte peper, eventueel een snuf zout en de fijngesneden peterselie. Serveer met de rest van de Parmezaanse kaas. Eet smakelijk!",
     "number": 7
+  },
+  {
+    "id": 175,
+    "recipeId": 38,
+    "description": "Snijd de kip in stukjes en doe ze in een grote mengkom.",
+    "number": 1
+  },
+  {
+    "id": 176,
+    "recipeId": 38,
+    "description": "Meng alle kruiden in een bak samen met de gesnipperde knoflook. Voeg beetje bij beetje olijfolie toe zodat het een mooie pasta wordt. De kruidenpasta roer je door de kip. De kip laat je minstens 10 minuten (liever langer) marineren.",
+    "number": 2
+  },
+  {
+    "id": 177,
+    "recipeId": 38,
+    "description": "In de tussentijd fruit je het uitje en bereid je de bijgerechten, zoals noedels en groenten.",
+    "number": 3
+  },
+  {
+    "id": 178,
+    "recipeId": 38,
+    "description": "Maak de kippenbouillon. Je hebt maar 200 ml nodig; de rest kun je weggooien.",
+    "number": 4
+  },
+  {
+    "id": 179,
+    "recipeId": 38,
+    "description": "Als de kip klaar is met marineren, verhit je een pan. Je hoeft geen olie toe te voegen, want daar is de kip al in gemarineerd. Voeg de gefruite ui toe en bak de kip rondom bruin.",
+    "number": 5
+  },
+  {
+    "id": 180,
+    "recipeId": 38,
+    "description": "Voeg de kippenbouillon toe en laat het twee minuten doorkoken. Voeg daarna de crème fraîche toe en verhit het kort. Klaar!",
+    "number": 6
   }
 ]

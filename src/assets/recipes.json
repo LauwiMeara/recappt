@@ -617,5 +617,23 @@
           "id": 1
         }
       ]
+    },
+    {
+      "id": "38",
+      "createdAt": "2025-08-13 16:16:20",
+      "title": "Kip tandoori",
+      "description": "Een wereldgerecht, maar dan zelfgemaakt.",
+      "servingsPeople": 3,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 30,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Serveren met noedels, rijst of naan.",
+      "imageName": "38.jpg",
+      "categories": [
+        {
+          "id": 6
+        }
+      ]
     }
   ]
