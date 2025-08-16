@@ -1,17 +1,17 @@
 <div class="sticky top-0 py-8 px-5 bg-gradient-recappt-dark-gray-to-transparent">
-   <ul class="grid grid-cols-9 font-header text-3xl text-recappt-white select-none divide-x divide-recappt-dark-gray shadow-lg">
+   <ul class="grid grid-cols-9 text-2xl text-recappt-light-gray select-none divide-x divide-recappt-dark-gray shadow-lg">
     <li (click)="filter(0)" [ngClass]="{ 'bg-gradient-recappt-gray': filteredCategories.length == 0  }" class="col-span-2 items-center text-center bg-gradient-recappt-dark-gray rounded-l-lg p-2 cursor-pointer">
       <div><fa-icon icon="utensils"></fa-icon></div>
       <div>
       <span>Alle recepten</span>
-      <span class="font-body text-xl font-light"> [{{recipes.length}}]</span>
+      <span class="text-xl font-light"> ({{recipes.length}})</span>
     </div>
     </li>
     <li *ngFor="let category of categories" (click)="filter(category.id)" [ngClass]="{ 'bg-gradient-recappt-gray': filteredCategories.includes(category.id), 'opacity-25 pointer-events-none': hasNoRecipes(category.id)}" class="items-center text-center bg-gradient-recappt-dark-gray last:rounded-r-lg p-2 cursor-pointer">
       <div><fa-icon [icon]=category.iconName></fa-icon></div>
       <div>
       <span>{{category.name}}</span>
-      <span class="font-body text-xl font-light"> [{{getNumberOfRecipes(category.id)}}]</span>
+      <span class="text-xl font-light"> ({{getNumberOfRecipes(category.id)}})</span>
     </div>
     </li>
   </ul>
