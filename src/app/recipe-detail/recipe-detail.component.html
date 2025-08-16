@@ -1,11 +1,14 @@
-<div *ngIf="recipe" class="flex flex-col">
+<div *ngIf="recipe" class="flex flex-col text-xl">
     <h2 class="text-5xl font-header font-bold text-recappt-white mb-5">{{recipe.title}}</h2>
-    <div *ngIf="recipe.description" class="font-bold text-recappt-white mb-5">{{recipe.description}}</div>
-    <div class="flex flex-row bg-recappt-light-gray p-5 rounded-lg mb-5 shadow-lg">
-        <div class="flex flex-col w-1/6 mr-5">
+    <div *ngIf="recipe.description" class=" text-recappt-white mb-5">{{recipe.description}}</div>
+    <div class="flex flex-row mb-5 shadow-lg">
+        <div class="flex flex-col w-1/5 p-5 mr-5 bg-recappt-light-gray rounded-lg">
+            <div *ngIf="recipe.imageName" class="mb-5">
+                <img src="assets/img/dishes/{{recipe.imageName}}" alt="Photo of the finished dish" class="aspect-[4/3] object-cover rounded-lg shadow-lg">
+            </div>
             <div class="mb-5">
                 <div *ngIf="recipe.servingsPeople" class="flex flex-row">
-                    <fa-icon icon="user" class="w-6"></fa-icon>
+                    <fa-icon icon="user" class="w-6 mr-2"></fa-icon>
                     <span class="w-full">{{recipe.servingsPeople}} {{recipe.servingsPeople == 1 ? "persoon" : "personen"}}</span>
                 </div>
                 <div *ngIf="recipe.servingsPieces" class="flex flex-row">
@@ -13,8 +16,8 @@
                     <span class="w-full">{{recipe.servingsPieces}} {{recipe.servingsPieces == 1 ? "stuk" : "stukken"}}</span>
                 </div>
                 <div class="flex flex-row">
-                    <fa-icon icon="clock" class="w-6"></fa-icon>
-                    <div  class="flex flex-col w-full">
+                    <fa-icon icon="clock" class="w-6 mr-2"></fa-icon>
+                    <div class="flex flex-col w-full">
                         <div *ngIf="recipe.timePrepInMinutes">{{recipe.timePrepInMinutes}} minuten bereiding</div>
                         <div *ngIf="recipe.timeWaitInMinutes">{{recipe.timeWaitInMinutes}} minuten wachten</div>
                         <div *ngIf="recipe.timeOvenInMinutes">{{recipe.timeOvenInMinutes}} minuten oven</div>
@@ -22,14 +25,16 @@
                 </div>
             </div>
             <div class="font-bold">Ingrediënten</div>
-            <div *ngFor="let ingredient of recipe.ingredients">
-                <span *ngIf="ingredient.amount">{{ingredient.amount}} </span>
-                <span *ngIf="ingredient.unitOfMeasurement">{{ingredient.unitOfMeasurement}} </span>
-                <span>{{ingredient.name}}</span>
-                <span *ngIf="ingredient.description">, {{ingredient.description}}</span>
-            </div>
+            <ul *ngFor="let ingredient of recipe.ingredients" class="list-disc ml-5">
+                <li>
+                    <span *ngIf="ingredient.amount">{{ingredient.amount}} </span>
+                    <span *ngIf="ingredient.unitOfMeasurement">{{ingredient.unitOfMeasurement}} </span>
+                    <span>{{ingredient.name}}</span>
+                    <span *ngIf="ingredient.description">, {{ingredient.description}}</span>
+                </li>
+            </ul>
         </div>
-        <div class="w-5/6 ml-5 select-none" (click)="nextStep()">
+        <div class="w-4/5 p-5 bg-recappt-light-gray rounded-lg select-none" (click)="nextStep()">
             <div class="mb-5">  
                 <div class="font-bold">Bereiding</div>
                 <div *ngFor="let step of recipe.steps" [ngClass]="{ 'bg-amber-100 rounded-lg': step.isActive  }" class="step p-2">
