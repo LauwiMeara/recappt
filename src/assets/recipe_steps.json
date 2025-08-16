@@ -48,18 +48,6 @@
     "number": 4
   },
   {
-    "id": 9,
-    "recipeId": 3,
-    "description": "Snijd de veldsla, kersen en mozzarella. Meng alles door elkaar.",
-    "number": 1
-  },
-  {
-    "id": 10,
-    "recipeId": 3,
-    "description": "Dresseer de salade met olijfolie en Italiaanse kruiden. Serveer met croutons.",
-    "number": 2
-  },
-  {
     "id": 11,
     "recipeId": 4,
     "description": "Doe de zuurkool in een pan. Breng aan de kook. Laat op laag vuur 10 min. koken en laat uitlekken in een vergiet.",
@@ -246,48 +234,6 @@
     "number": 3
   },
   {
-    "id": 42,
-    "recipeId": 8,
-    "description": "Verwarm de oven voor op 200 ºC.",
-    "number": 1
-  },
-  {
-    "id": 43,
-    "recipeId": 8,
-    "description": "Los in een kommetje de gist en de suiker op in 25 ml handwarm water. Roer het mengsel glad.",
-    "number": 2
-  },
-  {
-    "id": 44,
-    "recipeId": 8,
-    "description": "Meng de bloem en het zout in een beslagkom door elkaar. Maak een kuiltje in het midden en schenk hierin de gistoplossing. Schenk de olie en 50 ml handwarm water erbij.",
-    "number": 3
-  },
-  {
-    "id": 45,
-    "recipeId": 8,
-    "description": "Meng het pizzadeeg met de hand tot een samenhangende massa die van de wand van de kom loslaat. Het deeg is goed als het nog enigszins plakkerig aanvoelt (als een post-it). Te plakkerig = bloem toevoegen, te droog = water toevoegen.",
-    "number": 4
-  },
-  {
-    "id": 46,
-    "recipeId": 8,
-    "description": "Maak van het deeg een bal en laat hem afgedekt 1 uur rijzen op een warme plek.",
-    "number": 5
-  },
-  {
-    "id": 47,
-    "recipeId": 8,
-    "description": "Rol het pizzadeeg uit tot een cirkel met een diameter van 20 cm. Leg het pizzadeeg op de bakplaat en maak de randen iets dikker.",
-    "number": 6
-  },
-  {
-    "id": 48,
-    "recipeId": 8,
-    "description": "Beleg de pizza naar wens en bak hem 15 minuten.",
-    "number": 7
-  },
-  {
     "id": 49,
     "recipeId": 1,
     "description": "Haal de traybake na 10 minuten uit de oven. Voeg de broccoliroosjes en 1 eetlepel ras el hanout toe en schep om. Bak nogmaals 10 minuten in de oven.",
@@ -357,24 +303,6 @@
     "id": 60,
     "recipeId": 15,
     "description": "Snijd ondertussen de tomaten in blokken. Voeg de tomaten toe aan de hapjespan en laat op middelhoog vuur 30 minuten koken. Roer regelmatig. Breng op smaak met peper en zout.",
-    "number": 3
-  },
-  {
-    "id": 61,
-    "recipeId": 16,
-    "description": "Klop de slagroom met de eieren door elkaar met peper, zout en peterselie.",
-    "number": 1
-  },
-  {
-    "id": 62,
-    "recipeId": 16,
-    "description": "Bak de spekreepjes en de fijngesneden knoflook in een koekenpan. Laat de pan daarna iets afkoelen.",
-    "number": 2
-  },
-  {
-    "id": 63,
-    "recipeId": 16,
-    "description": "Voeg op laag vuur het slagroommengsel en de geraspte kaas toe. Roer tot het ei licht stolt.",
     "number": 3
   },
   {
@@ -477,30 +405,6 @@
     "id": 80,
     "recipeId": 20,
     "description": "Leg de rolletjes in een ingevette ovenschaal. Schenk de slagroom eroverheen en bestrooi het met de kaas. Dek het af met aluminiumfolie. Bak de cannelloni 20 minuten in het midden van de oven. Verwijder het folie en bak nog 10 minuten tot de cannelloni goudbruin is.",
-    "number": 4
-  },
-  {
-    "id": 81,
-    "recipeId": 22,
-    "description": "Maak de kipfilets plat. Bestrooi ze met zout, peper en paprikapoeder. Wentel ze door de bloem.",
-    "number": 1
-  },
-  {
-    "id": 82,
-    "recipeId": 22,
-    "description": "Verhit boter in een koekenpan en bak de kipfilets ongeveer 5 minuten tot ze gaar zijn. Haal ze uit de pan.",
-    "number": 2
-  },
-  {
-    "id": 83,
-    "recipeId": 22,
-    "description": "Smelt ongeveer 8 eetlepels boter in de pan. Bak de peterselie en Provençaalse kruiden kort in de boter. Roer het citroensap erdoor en breng het mengsel aan de kook.",
-    "number": 3
-  },
-  {
-    "id": 84,
-    "recipeId": 22,
-    "description": "Schep wat van de citroenboter door de rijst. Leg de kipfilets in de rest van de citroenboter.",
     "number": 4
   },
   {
@@ -1018,5 +922,119 @@
     "recipeId": 37,
     "description": "Voeg daarna de slagroom, sojasaus en mosterd toe. Laat het geheel zachtjes koken, zodat de saus dikker wordt.",
     "number": 5
+  },
+  {
+    "id": 61,
+    "recipeId": 16,
+    "description": "Breng een ruime pan water met een snuf zout aan de kook en kook hierin de pasta 'al dente' (beetgaar).",
+    "number": 1
+  },
+  {
+    "id": 62,
+    "recipeId": 16,
+    "description": "Tijdens het koken van de pasta doe je de eidooiers en het ei in een kom en meng je ze met de helft van de geraspte Parmezaanse kaas.",
+    "number": 2
+  },
+  {
+    "id": 63,
+    "recipeId": 16,
+    "description": "Zet tegelijkertijd een ruime koekenpan op het vuur (straks doe je de pasta erbij dus de pan moet ruim zijn) en bak het spek tot deze bruin en licht krokant is.",
+    "number": 3
+  },
+  {
+    "id": 171,
+    "recipeId": 16,
+    "description": "Voeg daarna eventueel het teentje knoflook toe en bak dit even kort mee. Zet het vuur laag.",
+    "number": 4
+  },
+  {
+    "id": 172,
+    "recipeId": 16,
+    "description": "Nu moet je 'snel' zijn. Haal de spaghetti met een tang uit de pan en schep het in de koekenpan. Bewaar het kookvocht van de pasta.",
+    "number": 5
+  },
+  {
+    "id": 173,
+    "recipeId": 16,
+    "description": "Doe beetje bij beetje het eimengsel bij de pasta en schep het (met bij voorkeur een tang) snel door elkaar, Voeg ondertussen steeds een beetje kookvocht toe (wees hier niet te zuinig mee) tot je een heerlijke romige saus hebt.",
+    "number": 6
+  },
+  {
+    "id": 174,
+    "recipeId": 16,
+    "description": "Breng op smaak met zwarte peper, eventueel een snuf zout en de fijngesneden peterselie. Serveer met de rest van de Parmezaanse kaas. Eet smakelijk!",
+    "number": 7
+  },
+  {
+    "id": 175,
+    "recipeId": 38,
+    "description": "Snijd de kip in stukjes en doe ze in een grote mengkom.",
+    "number": 1
+  },
+  {
+    "id": 176,
+    "recipeId": 38,
+    "description": "Meng alle kruiden in een bak samen met de gesnipperde knoflook. Voeg beetje bij beetje olijfolie toe zodat het een mooie pasta wordt. De kruidenpasta roer je door de kip. De kip laat je minstens 10 minuten (liever langer) marineren.",
+    "number": 2
+  },
+  {
+    "id": 177,
+    "recipeId": 38,
+    "description": "In de tussentijd fruit je het uitje en bereid je de bijgerechten, zoals noedels en groenten.",
+    "number": 3
+  },
+  {
+    "id": 178,
+    "recipeId": 38,
+    "description": "Maak de kippenbouillon. Je hebt maar 200 ml nodig; de rest kun je weggooien.",
+    "number": 4
+  },
+  {
+    "id": 179,
+    "recipeId": 38,
+    "description": "Als de kip klaar is met marineren, verhit je een pan. Je hoeft geen olie toe te voegen, want daar is de kip al in gemarineerd. Voeg de gefruite ui toe en bak de kip rondom bruin.",
+    "number": 5
+  },
+  {
+    "id": 180,
+    "recipeId": 38,
+    "description": "Voeg de kippenbouillon toe en laat het twee minuten doorkoken. Voeg daarna de crème fraîche toe en verhit het kort. Klaar!",
+    "number": 6
+  },
+  {
+    "id": 181,
+    "recipeId": 39,
+    "description": "Snijd de rode ui in dunne ringen, snijd de knoflook fijn. Snijd de courgette in blokjes van 1 cm.",
+    "number": 1
+  },
+  {
+    "id": 182,
+    "recipeId": 39,
+    "description": "Verhit de olie in een grote hapjespan op middelhoog vuur en bak de ui en knoflook 3 min. Voeg de courgette toe en bak 5 min. tot goudbruin en gaar.",
+    "number": 2
+  },
+  {
+    "id": 183,
+    "recipeId": 39,
+    "description": "Kook de tagliatelle gaar volgens de aanwijzingen op de verpakking.",
+    "number": 3
+  },
+  {
+    "id": 184,
+    "recipeId": 39,
+    "description": "Snijd de tomaatjes doormidden. Voeg ze toe aan de courgette en ui. Breng op smaak met peper en eventueel zout. Haal van het vuur. Snijd de mozzarella in blokjes.",
+    "number": 4
+  },
+  {
+    "id": 185,
+    "recipeId": 39,
+    "description": "Giet de pasta af (vang wat kookvocht op) en meng de pesto en rucola erdoor, met 2 el pastawater (per 4 personen). Serveer de pasta in diepe borden en verdeel de groente en mozzarella erover.",
+    "number": 5
+  },
+  {
+    "id": 186,
+    "recipeId": 40,
+    "description": "Mix alles door elkaar. Makkelijker kan niet!",
+    "number": 1
   }
 ]

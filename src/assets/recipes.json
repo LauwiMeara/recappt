@@ -39,24 +39,6 @@
       ]
     },
     {
-      "id": "3",
-      "createdAt": "2023-03-08 09:46:23",
-      "title": "Salade met kersen en mozzarella",
-      "description": "",
-      "servingsPeople": 2,
-      "servingsPieces": 0,
-      "timePrepInMinutes": 15,
-      "timeWaitInMinutes": 0,
-      "timeOvenInMinutes": 0,
-      "comment": "Ook te serveren met basilicumblaadjes en walnoten/hazelnoten.",
-      "imageName": "3.jpg",
-      "categories": [
-        {
-          "id": 3
-        }
-      ]
-    },
-    {
       "id": "4",
       "createdAt": "2023-03-08 09:46:23",
       "title": "Pistolet hotdog, zuurkool en katenspek",
@@ -103,7 +85,7 @@
       "timeWaitInMinutes": 0,
       "timeOvenInMinutes": 25,
       "comment": "",
-      "imageName": "",
+      "imageName": "6.PNG",
       "categories": [
         {
           "id": 4
@@ -122,24 +104,6 @@
       "timeOvenInMinutes": 25,
       "comment": "Je kunt dit gerecht 1 dag van tevoren bereiden. Laat afkoelen tot kamertemperatuur en bewaar afgedekt in de koelkast. Verwarm 30 min. in de oven op 180 °C.",
       "imageName": "7.jpg",
-      "categories": [
-        {
-          "id": 4
-        }
-      ]
-    },
-    {
-      "id": "8",
-      "createdAt": "2023-03-11 08:50:56",
-      "title": "Pizza(bodem)",
-      "description": "",
-      "servingsPeople": 1,
-      "servingsPieces": 0,
-      "timePrepInMinutes": 15,
-      "timeWaitInMinutes": 60,
-      "timeOvenInMinutes": 15,
-      "comment": "",
-      "imageName": "8.jpg",
       "categories": [
         {
           "id": 4
@@ -247,7 +211,7 @@
       "timeWaitInMinutes": 0,
       "timeOvenInMinutes": 0,
       "comment": "",
-      "imageName": "",
+      "imageName": "14.jpg",
       "categories": [
         {
           "id": 1
@@ -274,16 +238,16 @@
     },
     {
       "id": "16",
-      "createdAt": "2023-03-12 13:37:49",
-      "title": "Carbonarasaus",
-      "description": "",
+      "createdAt": "2025-08-13 14:10:00",
+      "title": "Spaghetti carbonara",
+      "description": "Het geheim van een echt superrrr romige carbonara zit hem in de combinatie van eigeel, kookvocht van de pasta en de Parmezaanse kaas. Simpeler kan niet. Goedkoper wel.",
       "servingsPeople": 2,
       "servingsPieces": 0,
-      "timePrepInMinutes": 15,
+      "timePrepInMinutes": 20,
       "timeWaitInMinutes": 0,
       "timeOvenInMinutes": 0,
-      "comment": "Serveren met pasta.",
-      "imageName": "16.jpg",
+      "comment": "",
+      "imageName": "16-carbonara.jpg",
       "categories": [
         {
           "id": 2
@@ -372,24 +336,6 @@
       "timePrepInMinutes": 40,
       "timeWaitInMinutes": 0,
       "timeOvenInMinutes": 15,
-      "comment": "Serveren met rijst.",
-      "imageName": "",
-      "categories": [
-        {
-          "id": 6
-        }
-      ]
-    },
-    {
-      "id": "22",
-      "createdAt": "2023-03-12 13:59:46",
-      "title": "Citroenkip",
-      "description": "",
-      "servingsPeople": 2,
-      "servingsPieces": 0,
-      "timePrepInMinutes": 20,
-      "timeWaitInMinutes": 0,
-      "timeOvenInMinutes": 0,
       "comment": "Serveren met rijst.",
       "imageName": "",
       "categories": [
@@ -669,6 +615,60 @@
       "categories": [
         {
           "id": 1
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "createdAt": "2025-08-13 16:16:20",
+      "title": "Kip tandoori",
+      "description": "Een wereldgerecht, maar dan zelfgemaakt.",
+      "servingsPeople": 3,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 30,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Serveren met noedels, rijst of naan.",
+      "imageName": "38.jpg",
+      "categories": [
+        {
+          "id": 6
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "createdAt": "2025-08-13 18:51:00",
+      "title": "Vegetarische tagliatelle met pesto",
+      "description": "Pasta pesto is altijd een goed idee, toch?",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Lekker met Parmezaanse kaas.",
+      "imageName": "39.jpeg",
+      "categories": [
+        {
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "createdAt": "2025-08-13 19:42:00",
+      "title": "Burritokruiden",
+      "description": "",
+      "servingsPeople": 4,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 5,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "",
+      "imageName": "40.jpg",
+      "categories": [
+        {
+          "id": 4
         }
       ]
     }

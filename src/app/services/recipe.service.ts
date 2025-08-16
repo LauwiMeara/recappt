@@ -4,14 +4,15 @@ import { Recipe } from '../models/recipe';
 import { map, Observable, switchMap, tap } from 'rxjs';
 import { RecipeIngredient } from '../models/recipe-ingredient';
 import { RecipeStep } from '../models/recipe-step';
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
 })
 export class RecipeService {
-  private recipesUrl = "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/recipes.json";
-  private ingredientsUrl = "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/ingredients.json";
-  private recipeStepsUrl = "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/recipe_steps.json";
+  private recipesUrl = environment.production ? "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/recipes.json" : "assets/recipes.json";
+  private ingredientsUrl = environment.production ? "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/ingredients.json" : "assets/ingredients.json";
+  private recipeStepsUrl = environment.production ? "https://raw.githubusercontent.com/LauwiMeara/recappt-client/refs/heads/main/src/assets/recipe_steps.json" : "assets/recipe_steps.json";
 
   constructor(private http: HttpClient) { }
 
