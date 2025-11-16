@@ -2398,6 +2398,77 @@
         "unitOfMeasurement" : "tl",
         "name" : "koriander",
         "description" : "gemalen"
+    },
+    {
+        "id" : 321,
+        "recipeId" : 41,
+        "amount" : 300.0,
+        "unitOfMeasurement" : "g",
+        "name" : "gehakt",
+        "description" : ""
+    },{
+        "id" : 322,
+        "recipeId" : 41,
+        "amount" : 400.0,
+        "unitOfMeasurement" : "g",
+        "name" : "wortel",
+        "description" : ""
+    },{
+        "id" : 323,
+        "recipeId" : 41,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "teentje",
+        "name" : "knoflook",
+        "description" : ""
+    },{
+        "id" : 324,
+        "recipeId" : 41,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "uienpoeder",
+        "description" : ""
+    },{
+        "id" : 325,
+        "recipeId" : 41,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "paprikapoeder",
+        "description" : ""
+    },{
+        "id" : 326,
+        "recipeId" : 41,
+        "amount" : 2.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "oregano",
+        "description" : ""
+    },{
+        "id" : 327,
+        "recipeId" : 41,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "tl",
+        "name" : "koek- en speculaaskruiden",
+        "description" : ""
+    },{
+        "id" : 328,
+        "recipeId" : 41,
+        "amount" : 200.0,
+        "unitOfMeasurement" : "ml",
+        "name" : "gezeefde tomaten (passata)",
+        "description" : ""
+    },{
+        "id" : 329,
+        "recipeId" : 41,
+        "amount" : 0.0,
+        "unitOfMeasurement" : "",
+        "name" : "peper",
+        "description" : ""
+    },{
+        "id" : 330,
+        "recipeId" : 41,
+        "amount" : 0.0,
+        "unitOfMeasurement" : "",
+        "name" : "zout",
+        "description" : ""
     }
 ]
     

@@ -671,5 +671,23 @@
           "id": 4
         }
       ]
+    },
+    {
+      "id": "41",
+      "createdAt": "2025-11-16 16:09:00",
+      "title": "Hollandse gehaktschotel",
+      "description": "Zoals het pakje, maar dan zonder pakje.",
+      "servingsPeople": 3,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 20,
+      "timeWaitInMinutes": 20,
+      "timeOvenInMinutes": 0,
+      "comment": "Serveren met patat, röstirondjes of een andere aardappelvariant. Ook lekker met champignons.",
+      "imageName": "41.jpg",
+      "categories": [
+        {
+          "id": 1
+        }
+      ]
     }
   ]

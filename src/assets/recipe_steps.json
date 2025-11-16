@@ -1036,5 +1036,31 @@
     "recipeId": 40,
     "description": "Mix alles door elkaar. Makkelijker kan niet!",
     "number": 1
+  },
+  {
+    "id": 187,
+    "recipeId": 41,
+    "description": "Snijd de wortels in plakjes. Bereid ze 20 minuten in de stoomoven (alleen stoom).",
+    "number": 1
+  },{
+    "id": 188,
+    "recipeId": 41,
+    "description": "Begin op tijd aan de bereiding van de patat, röstirondjes of andere aardappelvariant.",
+    "number": 2
+  },{
+    "id": 189,
+    "recipeId": 41,
+    "description": "Verhit boter of olie in een hapjespan en fruit het teentje knoflook aan. Bak hierna het gehakt rul.",
+    "number": 3
+  },{
+    "id": 190,
+    "recipeId": 41,
+    "description": "Kruid het geheel met peper, zout, koek- en speculaaskruiden, oregano, uienpoeder en paprikapoeder.",
+    "number": 4
+  },{
+    "id": 191,
+    "recipeId": 41,
+    "description": "Voeg de gezeefde tomaten toe. Laat het geheel even pruttelen.",
+    "number": 5
   }
 ]
