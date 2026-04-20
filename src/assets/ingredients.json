@@ -2499,14 +2499,14 @@
         "description" : ""
     },{
         "id" : 335,
-        "recipeId" : 41,
+        "recipeId" : 42,
         "amount" : 0.5,
         "unitOfMeasurement" : "",
         "name" : "limoen",
         "description" : ""
     },{
         "id" : 336,
-        "recipeId" : 41,
+        "recipeId" : 42,
         "amount" : 2.0,
         "unitOfMeasurement" : "el",
         "name" : "sojasaus",
