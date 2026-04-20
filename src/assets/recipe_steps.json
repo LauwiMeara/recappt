@@ -1062,5 +1062,40 @@
     "recipeId": 41,
     "description": "Voeg de wortels en gezeefde tomaten toe. Laat het geheel even pruttelen.",
     "number": 5
+  },{
+    "id": 192,
+    "recipeId": 42,
+    "description": "Bereid de noedels volgens de verpakking.",
+    "number": 2
+  },{
+    "id": 193,
+    "recipeId": 42,
+    "description": "Snijd de rode paprika in dunne reepjes. Verwijder de steeltjes van de bimi en snijd ze in kleine stukjes. Halveer de roosjes als deze te groot zijn.",
+    "number": 1
+  },{
+    "id": 194,
+    "recipeId": 42,
+    "description": "Stoom de bimi 5 minuten.",
+    "number": 3
+  },{
+    "id": 195,
+    "recipeId": 42,
+    "description": "Verhit olijfolie in een grote koekenpan en bak de paprika een paar minuten.",
+    "number": 4
+  },{
+    "id": 196,
+    "recipeId": 42,
+    "description": "Zet het vuur laag. Voeg de kip ketjap en gestoomde bimi toe en bak het tot het warm is.",
+    "number": 5
+  },{
+    "id": 197,
+    "recipeId": 42,
+    "description": "Meng de gekookte noedels met de kip en groenten. Voeg sojasaus toe. Breng eventueel op smaak met zout en peper.",
+    "number": 6
+  },{
+    "id": 198,
+    "recipeId": 42,
+    "description": "Verdeel de kip ketjap met noedels over de kommen. Voeg eventueel limoensap toe.",
+    "number": 7
   }
 ]

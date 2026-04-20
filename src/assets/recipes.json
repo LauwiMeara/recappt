@@ -689,5 +689,23 @@
           "id": 1
         }
       ]
+    },
+    {
+      "id": "42",
+      "createdAt": "2026-04-20 16:36:00",
+      "title": "Kip ketjap met noedels, rode paprika, bimi en limoen",
+      "description": "Lekker van Crisp.",
+      "servingsPeople": 2,
+      "servingsPieces": 0,
+      "timePrepInMinutes": 15,
+      "timeWaitInMinutes": 0,
+      "timeOvenInMinutes": 0,
+      "comment": "Garneer eventueel met 20g cashewnoten.",
+      "imageName": "42.jpg",
+      "categories": [
+        {
+          "id": 6
+        }
+      ]
     }
   ]

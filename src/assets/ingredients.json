@@ -2469,6 +2469,48 @@
         "unitOfMeasurement" : "",
         "name" : "zout",
         "description" : ""
+    },{
+        "id" : 331,
+        "recipeId" : 42,
+        "amount" : 450.0,
+        "unitOfMeasurement" : "g",
+        "name" : "kip ketjap",
+        "description" : "van Crisp"
+    },{
+        "id" : 332,
+        "recipeId" : 42,
+        "amount" : 125.0,
+        "unitOfMeasurement" : "g",
+        "name" : "noedels",
+        "description" : ""
+    },{
+        "id" : 333,
+        "recipeId" : 42,
+        "amount" : 1.0,
+        "unitOfMeasurement" : "",
+        "name" : "rode paprika",
+        "description" : ""
+    },{
+        "id" : 334,
+        "recipeId" : 42,
+        "amount" : 200.0,
+        "unitOfMeasurement" : "g",
+        "name" : "bimi",
+        "description" : ""
+    },{
+        "id" : 335,
+        "recipeId" : 41,
+        "amount" : 0.5,
+        "unitOfMeasurement" : "",
+        "name" : "limoen",
+        "description" : ""
+    },{
+        "id" : 336,
+        "recipeId" : 41,
+        "amount" : 2.0,
+        "unitOfMeasurement" : "el",
+        "name" : "sojasaus",
+        "description" : ""
     }
 ]
     
